@@ -51,7 +51,7 @@ const searchKey = function(key, json) {
   let replacementIndex = 1;
   let newStr = val.replace(
     `$${replacementIndex}$`,
-    replacements[replacementIndex]
+    replacements[replacementIndex - 1]
   );
 
   replacementIndex++;
@@ -61,7 +61,7 @@ const searchKey = function(key, json) {
 
     newStr = val.replace(
       `$${replacementIndex}$`,
-      replacements[replacementIndex]
+      replacements[replacementIndex - 1]
     );
 
     replacementIndex++;
