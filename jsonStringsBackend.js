@@ -46,23 +46,25 @@ const searchKey = function(key, json) {
     path = `/${key.split('.').join('/')}/`; //todo
   }
 
-  let replacementIndex = 1;
-  let newStr = val.replace(
-    `$${replacementIndex}$`,
-    replacements[replacementIndex - 1]
-  );
-
-  replacementIndex++;
-
-  while (val !== newStr) {
-    val = newStr;
-
-    newStr = val.replace(
+  if (val instanceof String) {
+    let replacementIndex = 1;
+    let newStr = val.replace(
       `$${replacementIndex}$`,
       replacements[replacementIndex - 1]
     );
 
     replacementIndex++;
+
+    while (val !== newStr) {
+      val = newStr;
+
+      newStr = val.replace(
+        `$${replacementIndex}$`,
+        replacements[replacementIndex - 1]
+      );
+
+      replacementIndex++;
+    }
   }
 
   if (path !== null && val.startsWith('~')) {
