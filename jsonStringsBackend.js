@@ -12,20 +12,29 @@ const searchKey = function(key, json) {
     let keys = key.split('.');
 
     let currentChild = json;
+    let path = '';
 
     for (let childKey of keys) {
       if (
-        typeof currentChild[childKey] === 'undefined' ||
-        currentChild[childKey] === null
+        typeof currentChild['*'] === 'undefined' &&
+        (typeof currentChild[childKey] === 'undefined' ||
+          currentChild[childKey] === null)
       ) {
         currentChild = null;
+        path = null;
         break;
       }
+
+      path += `/${childKey}`;
       currentChild = currentChild[childKey];
     }
 
     if (typeof currentChild !== 'undefined' && currentChild !== null) {
       val = currentChild;
+    }
+
+    if (path !== null && val.startsWith('~')) {
+      val = `${path}/${val.substring(1)}`;
     }
   }
 

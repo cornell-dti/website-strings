@@ -6,6 +6,11 @@
   "directories": {
     "members": "/members"
   },
+  "projects": {
+    "*": {
+      "card": "~/card.png"
+    }
+  },
   "pages": {
     "team": {
       "hero": {
