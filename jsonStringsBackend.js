@@ -49,12 +49,22 @@ const searchKey = function(key, json) {
   }
 
   let replacementIndex = 1;
-  let newStr = val.replace(`$${replacementIndex++}$`, replacements[i]);
+  let newStr = val.replace(
+    `$${replacementIndex}$`,
+    replacements[replacementIndex]
+  );
+
+  replacementIndex++;
 
   while (val !== newStr) {
     val = newStr;
-    
-    newStr = val.replace(`$${replacementIndex++}$`, replacements[i]);
+
+    newStr = val.replace(
+      `$${replacementIndex}$`,
+      replacements[replacementIndex]
+    );
+
+    replacementIndex++;
   }
 
   if (path !== null && val.startsWith('~')) {
