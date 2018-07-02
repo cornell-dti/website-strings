@@ -15,7 +15,7 @@
     "*": {
       "hero": {
         "lazy": "/pages/$1$/hero/hero-lazy.png",
-        "video": "/pages/$1$/hero/hero.mov",
+        "video": "/pages/$1$/hero/hero.mp4",
         "image": "/pages/$1$/hero/hero@3x.png"
       }
     }
