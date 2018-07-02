@@ -23,6 +23,7 @@ const searchKey = function(key, json) {
         if (typeof currentChild['*'] !== 'undefined') {
           path += `/${childKey}`;
           currentChild = currentChild['*'];
+          console.log(path);
           continue;
         } else {
           currentChild = null;
