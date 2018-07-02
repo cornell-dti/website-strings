@@ -46,7 +46,7 @@ const searchKey = function(key, json) {
   }
 
   if (path !== null && val.startsWith('~')) {
-    val = `${path}/${val.substring(1)}`;
+    val = `${path}${val.substring(1)}`;
   }
 
   return val;
