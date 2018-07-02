@@ -46,6 +46,10 @@ const searchKey = function(key, json) {
     path = `/${key.split('.').join('/')}/`; //todo
   }
 
+  if (path !== null && val.startsWith('~')) {
+    val = `${path}${val.substring(1)}`;
+  }
+
   if (val instanceof String) {
     let replacementIndex = 1;
     let newStr = val.replace(
@@ -65,10 +69,6 @@ const searchKey = function(key, json) {
 
       replacementIndex++;
     }
-  }
-
-  if (path !== null && val.startsWith('~')) {
-    val = `${path}${val.substring(1)}`;
   }
 
   return val;
