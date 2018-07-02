@@ -8,11 +8,12 @@ const DEFAULT_CONTEXT = 'default';
 const searchKey = function(key, json) {
   let val = json[key];
 
+  let path = '';
+
   if (typeof val === 'undefined' || val === null) {
     let keys = key.split('.');
 
     let currentChild = json;
-    let path = '';
 
     for (let childKey of keys) {
       if (
@@ -30,6 +31,8 @@ const searchKey = function(key, json) {
         }
       }
 
+      console.log(path);
+
       path += `/${childKey}`;
       currentChild = currentChild[childKey];
     }
@@ -37,10 +40,12 @@ const searchKey = function(key, json) {
     if (typeof currentChild !== 'undefined' && currentChild !== null) {
       val = currentChild;
     }
+  } else {
+    path = `/${keys.join('/')}/`;
+  }
 
-    if (path !== null && val.startsWith('~')) {
-      val = `${path}/${val.substring(1)}`;
-    }
+  if (path !== null && val.startsWith('~')) {
+    val = `${path}/${val.substring(1)}`;
   }
 
   return val;
