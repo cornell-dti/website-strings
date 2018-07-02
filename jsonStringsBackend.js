@@ -16,13 +16,18 @@ const searchKey = function(key, json) {
 
     for (let childKey of keys) {
       if (
-        typeof currentChild['*'] === 'undefined' &&
-        (typeof currentChild[childKey] === 'undefined' ||
-          currentChild[childKey] === null)
+        typeof currentChild[childKey] === 'undefined' ||
+        currentChild[childKey] === null
       ) {
-        currentChild = null;
-        path = null;
-        break;
+        if (typeof currentChild['*'] !== 'undefined') {
+          path += `/${childKey}`;
+          currentChild = currentChild['*'];
+          continue;
+        } else {
+          currentChild = null;
+          path = null;
+          break;
+        }
       }
 
       path += `/${childKey}`;
