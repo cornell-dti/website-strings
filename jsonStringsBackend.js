@@ -48,11 +48,14 @@ const searchKey = function(key, json) {
     path = `/${keys.join('/')}/`;
   }
 
-  let oldStr = val;
-  let newStr;
-  let i = 1;
+  let replacementIndex = 1;
+  let newStr = val.replace(`$${replacementIndex++}$`, replacements[i]);
 
-  while (((newStr = oldStr.replace(`$${i}$`, replacements[i])), oldStr !== newStr)) oldStr = newStr;
+  while (val !== newStr) {
+    val = newStr;
+    
+    newStr = val.replace(`$${replacementIndex++}$`, replacements[i]);
+  }
 
   if (path !== null && val.startsWith('~')) {
     val = `${path}${val.substring(1)}`;
