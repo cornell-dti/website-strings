@@ -1,4 +1,5 @@
 //todo
+import JSONStringsBackend from './jsonStringsBackend';
 import StringsFrontend from './strings';
 
 const Strings = new StringsFrontend(new JSONStringsBackend());

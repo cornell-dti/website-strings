@@ -1,4 +1,3 @@
-import JSONStringsBackend from './jsonStringsBackend';
 import StringsBackend from './stringsBackend';
 
 export default class StringsFrontend {
