@@ -26,7 +26,7 @@ const searchKey = function(key, json) {
           path += `/${childKey}`;
           replacements.push(childKey);
           currentChild = currentChild['*'];
-          console.log(path);
+
           continue;
         } else {
           currentChild = null;
@@ -34,8 +34,6 @@ const searchKey = function(key, json) {
           break;
         }
       }
-
-      console.log(path);
 
       path += `/${childKey}`;
       currentChild = currentChild[childKey];
@@ -45,7 +43,7 @@ const searchKey = function(key, json) {
       val = currentChild;
     }
   } else {
-    path = `/${keys.join('/')}/`;
+    path = `/${key.split('.').join('/')}/`; //todo
   }
 
   let replacementIndex = 1;
