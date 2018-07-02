@@ -3,6 +3,9 @@
     "wordmark": "~.png",
     "icon": "/branding/brand-icon.png"
   },
+  "promo": {
+    "*": "~.png"
+  },
   "directories": {
     "members": "/members"
   },
