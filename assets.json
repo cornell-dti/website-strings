@@ -5,5 +5,14 @@
   },
   "directories": {
     "members": "/members"
+  },
+  "pages": {
+    "team": {
+      "hero": {
+        "lazy": "/pages/team/hero/hero-lazy.png",
+        "video": "/pages/team/hero/hero.mov",
+        "image": "/pages/team/hero/hero@3x.png"
+      }
+    }
   }
 }
