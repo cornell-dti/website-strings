@@ -10,6 +10,8 @@ const searchKey = function(key, json) {
 
   let path = '';
 
+  let replacements = [];
+
   if (typeof val === 'undefined' || val === null) {
     let keys = key.split('.');
 
@@ -22,6 +24,7 @@ const searchKey = function(key, json) {
       ) {
         if (typeof currentChild['*'] !== 'undefined') {
           path += `/${childKey}`;
+          replacements.push(childKey);
           currentChild = currentChild['*'];
           console.log(path);
           continue;
@@ -44,6 +47,12 @@ const searchKey = function(key, json) {
   } else {
     path = `/${keys.join('/')}/`;
   }
+
+  let oldStr = val;
+  let newStr;
+  let i = 1;
+
+  while (((newStr = oldStr.replace(`$${i}$`, replacements[i])), oldStr !== newStr)) oldStr = newStr;
 
   if (path !== null && val.startsWith('~')) {
     val = `${path}${val.substring(1)}`;

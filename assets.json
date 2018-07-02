@@ -1,6 +1,6 @@
 {
   "branding": {
-    "wordmark": "/branding/wordmark.png",
+    "wordmark": "~.png",
     "icon": "/branding/brand-icon.png"
   },
   "directories": {
@@ -12,11 +12,11 @@
     }
   },
   "pages": {
-    "team": {
+    "*": {
       "hero": {
-        "lazy": "/pages/team/hero/hero-lazy.png",
-        "video": "/pages/team/hero/hero.mov",
-        "image": "/pages/team/hero/hero@3x.png"
+        "lazy": "/pages/$1$/hero/hero-lazy.png",
+        "video": "/pages/$1$/hero/hero.mov",
+        "image": "/pages/$1$/hero/hero@3x.png"
       }
     }
   }
