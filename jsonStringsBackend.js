@@ -50,7 +50,7 @@ const searchKey = function(key, json) {
     val = `${path}${val.substring(1)}`;
   }
 
-  if (val instanceof String) {
+  if (typeof val === 'string') {
     let replacementIndex = 1;
     let newStr = val.replace(
       `$${replacementIndex}$`,
