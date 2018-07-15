@@ -1,0 +1,277 @@
+{
+  "join-information": {},
+  "application-info": {
+    "designer": {
+      "apply": {
+        "header": "Apply",
+        "right-header": "due 11:59 PM on Friday, 9/8",
+        "sections": {
+          "1": {
+            "header": "What We're Looking For",
+            "content":
+              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+          },
+          "2": {
+            "header": "What You'll Do",
+            "content": "You'll help us design cool tech initiatives"
+          },
+          "call-to-action-button": {
+            "content": "Apply"
+          }
+        }
+      },
+      "information": {
+        "header": "Information",
+        "right-header": "on Tuesday and Thursday",
+        "sections": {
+          "left": {
+            "header": "Info Session 1",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 101",
+                "4": "Link: TBA"
+              }
+            }
+          },
+          "right": {
+            "header": "Info Session 2",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 102",
+                "4": "Link: TBA"
+              }
+            }
+          }
+        }
+      },
+      "next-steps": {
+        "header": "Next Steps",
+        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Application Review",
+            "content":
+              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+          },
+          "2": {
+            "header": "Interview",
+            "content":
+              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+          }
+        }
+      },
+      "decision": {
+        "header": "Decision",
+        "right-header": "by 11:59 PM on Tuesday, 9/14"
+      }
+    },
+    "developer": {
+      "apply": {
+        "header": "Apply",
+        "right-header": "due 11:59 PM on Friday, 9/8",
+        "sections": {
+          "1": {
+            "header": "What We're Looking For",
+            "content":
+              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+          },
+          "2": {
+            "header": "What You'll Do",
+            "content": "You'll help us design cool tech initiatives"
+          },
+          "call-to-action-button": {
+            "content": "Apply"
+          }
+        }
+      },
+      "information": {
+        "header": "Information",
+        "right-header": "on Tuesday and Thursday",
+        "sections": {
+          "left": {
+            "header": "Info Session 1",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 101",
+                "4": "Link: TBA"
+              }
+            }
+          },
+          "right": {
+            "header": "Info Session 2",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 102",
+                "4": "Link: TBA"
+              }
+            }
+          }
+        }
+      },
+      "next-steps": {
+        "header": "Next Steps",
+        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Application Review",
+            "content":
+              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+          },
+          "2": {
+            "header": "Interview",
+            "content":
+              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+          }
+        }
+      },
+      "decision": {
+        "header": "Decision",
+        "right-header": "by 11:59 PM on Tuesday, 9/14"
+      }
+    },
+    "business": {
+      "apply": {
+        "header": "Apply",
+        "right-header": "due 11:59 PM on Friday, 9/8",
+        "sections": {
+          "1": {
+            "header": "What We're Looking For",
+            "content":
+              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+          },
+          "2": {
+            "header": "What You'll Do",
+            "content": "You'll help us design cool tech initiatives"
+          },
+          "call-to-action-button": {
+            "content": "Apply"
+          }
+        }
+      },
+      "information": {
+        "header": "Information",
+        "right-header": "on Tuesday and Thursday",
+        "sections": {
+          "left": {
+            "header": "Info Session 1",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 101",
+                "4": "Link: TBA"
+              }
+            }
+          },
+          "right": {
+            "header": "Info Session 2",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 102",
+                "4": "Link: TBA"
+              }
+            }
+          }
+        }
+      },
+      "next-steps": {
+        "header": "Next Steps",
+        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Application Review",
+            "content":
+              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+          },
+          "2": {
+            "header": "Interview",
+            "content":
+              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+          }
+        }
+      },
+      "decision": {
+        "header": "Decision",
+        "right-header": "by 11:59 PM on Tuesday, 9/14"
+      }
+    },
+    "pm": {
+      "apply": {
+        "header": "Apply",
+        "right-header": "due 11:59 PM on Friday, 9/8",
+        "sections": {
+          "1": {
+            "header": "What We're Looking For",
+            "content":
+              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+          },
+          "2": {
+            "header": "What You'll Do",
+            "content": "You'll help us design cool tech initiatives"
+          },
+          "call-to-action-button": {
+            "content": "Apply"
+          }
+        }
+      },
+      "information": {
+        "header": "Information",
+        "right-header": "on Tuesday and Thursday",
+        "sections": {
+          "left": {
+            "header": "Info Session 1",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 101",
+                "4": "Link: TBA"
+              }
+            }
+          },
+          "right": {
+            "header": "Info Session 2",
+            "content": {
+              "lines": {
+                "1": "Date: Tuesday, 09/03",
+                "2": "Time: 5:30 PM",
+                "3": "Location: Death Star 102",
+                "4": "Link: TBA"
+              }
+            }
+          }
+        }
+      },
+      "next-steps": {
+        "header": "Next Steps",
+        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Application Review",
+            "content":
+              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+          },
+          "2": {
+            "header": "Interview",
+            "content":
+              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+          }
+        }
+      },
+      "decision": {
+        "header": "Decision",
+        "right-header": "by 11:59 PM on Tuesday, 9/14"
+      }
+    }
+  }
+}

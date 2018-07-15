@@ -15,7 +15,15 @@ export default class StringsFrontend {
     }
   }
 
-  get(key, context = this.backend.getDefaultContext()) {
+  get(key, context) {
     return this.backend.getString(key, context);
+  }
+
+  exists(key, context) {
+    return this.backend.exists(key, context);
+  }
+
+  childrenOf(key, context) {
+    return this.backend.getChildrenKeysFor(key, context);
   }
 }
