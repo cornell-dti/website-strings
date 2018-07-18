@@ -2,10 +2,11 @@ import StringsBackend from './stringsBackend';
 
 import HomeJSON from './home.json';
 import AssetsJSON from './assets.json';
+import ApplyJSON from './apply.json';
 
 const DEFAULT_CONTEXT = 'default';
 
-const searchKey = function(key, json) {
+const searchKey = function (key, json) {
   let val = json[key];
 
   let path = '';
@@ -46,11 +47,11 @@ const searchKey = function(key, json) {
     path = `/${key.split('.').join('/')}/`; //todo
   }
 
-  if (path !== null && val.startsWith('~')) {
-    val = `${path}${val.substring(1)}`;
-  }
-
   if (typeof val === 'string') {
+    if (path !== null && val.startsWith('~')) {
+      val = `${path}${val.substring(1)}`;
+    }
+
     let replacementIndex = 1;
     let newStr = val.replace(
       `$${replacementIndex}$`,
@@ -69,6 +70,8 @@ const searchKey = function(key, json) {
 
       replacementIndex++;
     }
+  } else if (typeof val === 'object') {
+    val = Object.keys(val);
   }
 
   return val;
@@ -87,8 +90,31 @@ export default class JSONStringsBackend extends StringsBackend {
       case 'assets':
         // TODO should we error out if null?
         return `/static/${searchKey(key, AssetsJSON)}`;
+      case 'apply':
+        return searchKey(key, ApplyJSON);
       default:
         return null;
+    }
+  }
+
+  _exists(key, context) {
+    let str = this._getString(key, context);
+    return typeof str !== 'undefined' && str !== null;
+  }
+
+  _getChildrenKeysFor(key, context) {
+    switch (context) {
+      case DEFAULT_CONTEXT:
+      case 'home':
+        return searchKey(key, HomeJSON);
+      case 'assets':
+        // TODO should we error out if null?
+        return searchKey(key, AssetsJSON);
+      case 'apply':
+        return searchKey(key, ApplyJSON);
+      default:
+        return null;
+
     }
   }
 }

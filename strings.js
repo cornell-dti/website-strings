@@ -15,14 +15,32 @@ export default class StringsFrontend {
     }
   }
 
+  /**
+   * Gets a string for a given key in a given context.
+   * 
+   * @param {*} key 
+   * @param {*} context 
+   */
   get(key, context) {
     return this.backend.getString(key, context);
   }
 
+  /**
+   * Determines if a string exists for a given key and optional context.
+   * 
+   * @param {*} key 
+   * @param {*} context 
+   */
   exists(key, context) {
     return this.backend.exists(key, context);
   }
 
+  /**
+   * Retrieves all direct children for a given key in an optional context.
+   * 
+   * @param {*} key 
+   * @param {*} context 
+   */
   childrenOf(key, context) {
     return this.backend.getChildrenKeysFor(key, context);
   }

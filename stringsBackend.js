@@ -23,6 +23,14 @@ export default class StringsBackend {
     return this._getString(key, context);
   }
 
+  getChildrenKeysFor(key, context = this.getDefaultContext()) {
+    return this._getChildrenKeysFor(key, context);
+  }
+
+  exists(key, context = this.getDefaultContext()) {
+    return this._exists(key, context);
+  }
+
   /**
    * Internal implementation function for child classes to override. Retrieves a given string
    * for any given key or context.
@@ -34,5 +42,13 @@ export default class StringsBackend {
    */
   _getString(key, context) {
     return null;
+  }
+
+  _getChildrenKeysFor(key, context) {
+    return null;
+  }
+
+  _exists(key, context) {
+    return false;
   }
 }
