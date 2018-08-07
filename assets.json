@@ -19,7 +19,7 @@
       "hero": {
         "lazy": "/pages/$1$/hero/hero-lazy.png",
         "video": "/pages/$1$/hero/hero.m4v",
-        "image": "/pages/$1$/hero/hero@3x.png"
+        "image": "/pages/$1$/hero/hero@2x.png"
       }
     }
   }
