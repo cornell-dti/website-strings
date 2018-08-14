@@ -11,7 +11,8 @@
   },
   "projects": {
     "*": {
-      "card": "~.png"
+      "card": "~.png",
+      "hero-image": "/projects/$1$/product.png"
     }
   },
   "pages": {
