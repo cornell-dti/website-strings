@@ -12,7 +12,10 @@
   "projects": {
     "*": {
       "card": "~.png",
-      "hero-image": "/projects/$1$/product.png"
+      "hero-image": "/projects/$1$/product.png",
+      "features": {
+        "*": "~.feature.svg"
+      }
     }
   },
   "pages": {
