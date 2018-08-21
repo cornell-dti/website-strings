@@ -1,5 +1,32 @@
 {
   "join-information": {},
+  "hero": {
+    "header": "Join Us",
+    "subheader": "We are Cornell Design &amo; Tech Initiative. But indivdually, we are a talented, diverse group of students from different colleges and countries striving to make a difference in our community. And that is really cool."
+  },
+  "info-session": {
+    "header": "Info Sessions",
+    "subheader": "Fall 2018",
+    "description": "We encourage all interested applicants to attend an info session to find out more about what we do and talk to us in person. We hope to see you there!"
+  },
+  "info-sessions": {
+    "1": {
+      "time": "Thursday, 9/12 • 5:30 PM",
+      "location": "Goldwin Smith Hall 132",
+      "link": {
+        "text": "Facebook Event",
+        "url": ""
+      }
+    },
+    "2": {
+      "time": "Tuesday, 9/10 • 5:30 PM",
+      "location": "Upson Hall 216",
+      "link": {
+        "text": "Facebook Event",
+        "url": ""
+      }
+    }
+  },
   "application-info": {
     "designer": {
       "apply": {
@@ -8,8 +35,7 @@
         "sections": {
           "1": {
             "header": "What We're Looking For",
-            "content":
-              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+            "content": "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
           },
           "2": {
             "header": "What You'll Do",
@@ -54,13 +80,11 @@
         "sections": {
           "1": {
             "header": "Application Review",
-            "content":
-              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+            "content": "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
           },
           "2": {
             "header": "Interview",
-            "content":
-              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+            "content": "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
           }
         }
       },
@@ -76,8 +100,7 @@
         "sections": {
           "1": {
             "header": "What We're Looking For",
-            "content":
-              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+            "content": "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
           },
           "2": {
             "header": "What You'll Do",
@@ -122,13 +145,11 @@
         "sections": {
           "1": {
             "header": "Application Review",
-            "content":
-              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+            "content": "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
           },
           "2": {
             "header": "Interview",
-            "content":
-              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+            "content": "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
           }
         }
       },
@@ -144,8 +165,7 @@
         "sections": {
           "1": {
             "header": "What We're Looking For",
-            "content":
-              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+            "content": "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
           },
           "2": {
             "header": "What You'll Do",
@@ -190,13 +210,11 @@
         "sections": {
           "1": {
             "header": "Application Review",
-            "content":
-              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+            "content": "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
           },
           "2": {
             "header": "Interview",
-            "content":
-              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+            "content": "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
           }
         }
       },
@@ -212,8 +230,7 @@
         "sections": {
           "1": {
             "header": "What We're Looking For",
-            "content":
-              "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+            "content": "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
           },
           "2": {
             "header": "What You'll Do",
@@ -258,13 +275,11 @@
         "sections": {
           "1": {
             "header": "Application Review",
-            "content":
-              "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
+            "content": "Jazz Fenton: Wow! Isn't this great? We just caught three ghosts tonight! Danny Fenton: No, actually, you've just caught one ghost, three times, all of them me!"
           },
           "2": {
             "header": "Interview",
-            "content":
-              "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
+            "content": "Samantha 'Sam' Manson: Hi. I'm Sam. I don't believe I caught your name. I suggest you shout it out loud, along with your motive. Technus: I am technus! Master of all things mechanical! Wizard of integrated soicuittry! And destroyer of woilds!"
           }
         }
       },
