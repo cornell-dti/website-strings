@@ -1,7 +1,7 @@
 {
   "branding": {
     "wordmark": "~.png",
-    "icon": "/branding/brand-icon.png"
+    "icon": "/branding/brand-icon.svg"
   },
   "promo": {
     "*": "~.png"
