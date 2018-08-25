@@ -3,6 +3,10 @@ import StringsBackend from './stringsBackend';
 import HomeJSON from './home.json';
 import AssetsJSON from './assets.json';
 import ApplyJSON from './apply.json';
+import InitiativesJSON from './initiatives.json';
+import TeamJSON from './team.json';
+import ProjectsJSON from './projects.json';
+import SponsorJSON from './projects.json';
 
 const DEFAULT_CONTEXT = 'default';
 
@@ -11,14 +15,14 @@ const searchKey = function (key, json) {
 
   let path = '';
 
-  let replacements = [];
+  const replacements = [];
 
   if (typeof val === 'undefined' || val === null) {
-    let keys = key.split('.');
+    const keys = key.split('.');
 
     let currentChild = json;
 
-    for (let childKey of keys) {
+    for (const childKey of keys) {
       if (
         typeof currentChild[childKey] === 'undefined' ||
         currentChild[childKey] === null
@@ -44,7 +48,7 @@ const searchKey = function (key, json) {
       val = currentChild;
     }
   } else {
-    path = `/${key.split('.').join('/')}/`; //todo
+    path = `/${key.split('.').join('/')}/`; // todo
   }
 
   if (typeof val === 'string') {
@@ -92,13 +96,21 @@ export default class JSONStringsBackend extends StringsBackend {
         return `/static/${searchKey(key, AssetsJSON)}`;
       case 'apply':
         return searchKey(key, ApplyJSON);
+      case 'projects':
+        return searchKey(key, ProjectsJSON);
+      case 'initiatives':
+        return searchKey(key, InitiativesJSON);
+      case 'team':
+        return searchKey(key, TeamJSON);
+      case 'sponsor':
+        return searchKey(key, SponsorJSON);
       default:
         return null;
     }
   }
 
   _exists(key, context) {
-    let str = this._getString(key, context);
+    const str = this._getString(key, context);
     return typeof str !== 'undefined' && str !== null;
   }
 
@@ -114,7 +126,6 @@ export default class JSONStringsBackend extends StringsBackend {
         return searchKey(key, ApplyJSON);
       default:
         return null;
-
     }
   }
 }

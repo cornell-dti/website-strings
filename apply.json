@@ -30,7 +30,7 @@
   "application-info": {
     "designer": {
       "apply": {
-        "header": "Apply",
+        "header": "Design Application",
         "right-header": "due 11:59 PM on Friday, 9/8",
         "sections": {
           "1": {
@@ -46,34 +46,6 @@
           "content": "Apply"
         }
       },
-      "information": {
-        "header": "Information",
-        "right-header": "on Tuesday and Thursday",
-        "sections": {
-          "left": {
-            "header": "Info Session 1",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 101",
-                "4": "Link: TBA"
-              }
-            }
-          },
-          "right": {
-            "header": "Info Session 2",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 102",
-                "4": "Link: TBA"
-              }
-            }
-          }
-        }
-      },
       "next-steps": {
         "header": "Next Steps",
         "right-header": "Saturday, 9/12 through Monday, 9/14",
@@ -90,12 +62,18 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14"
+        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Notification",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
       }
     },
     "developer": {
       "apply": {
-        "header": "Apply",
+        "header": "Development Application",
         "right-header": "due 11:59 PM on Friday, 9/8",
         "sections": {
           "1": {
@@ -111,34 +89,6 @@
           "content": "Apply"
         }
       },
-      "information": {
-        "header": "Information",
-        "right-header": "on Tuesday and Thursday",
-        "sections": {
-          "left": {
-            "header": "Info Session 1",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 101",
-                "4": "Link: TBA"
-              }
-            }
-          },
-          "right": {
-            "header": "Info Session 2",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 102",
-                "4": "Link: TBA"
-              }
-            }
-          }
-        }
-      },
       "next-steps": {
         "header": "Next Steps",
         "right-header": "Saturday, 9/12 through Monday, 9/14",
@@ -155,12 +105,18 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14"
+        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Notification",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
       }
     },
     "business": {
       "apply": {
-        "header": "Apply",
+        "header": "Business Application",
         "right-header": "due 11:59 PM on Friday, 9/8",
         "sections": {
           "1": {
@@ -176,34 +132,6 @@
           "content": "Apply"
         }
       },
-      "information": {
-        "header": "Information",
-        "right-header": "on Tuesday and Thursday",
-        "sections": {
-          "left": {
-            "header": "Info Session 1",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 101",
-                "4": "Link: TBA"
-              }
-            }
-          },
-          "right": {
-            "header": "Info Session 2",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 102",
-                "4": "Link: TBA"
-              }
-            }
-          }
-        }
-      },
       "next-steps": {
         "header": "Next Steps",
         "right-header": "Saturday, 9/12 through Monday, 9/14",
@@ -220,12 +148,18 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14"
+        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Notification",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
       }
     },
     "pm": {
       "apply": {
-        "header": "Apply",
+        "header": "Management Application",
         "right-header": "due 11:59 PM on Friday, 9/8",
         "sections": {
           "1": {
@@ -241,34 +175,6 @@
           "content": "Apply"
         }
       },
-      "information": {
-        "header": "Information",
-        "right-header": "on Tuesday and Thursday",
-        "sections": {
-          "left": {
-            "header": "Info Session 1",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 101",
-                "4": "Link: TBA"
-              }
-            }
-          },
-          "right": {
-            "header": "Info Session 2",
-            "content": {
-              "lines": {
-                "1": "Date: Tuesday, 09/03",
-                "2": "Time: 5:30 PM",
-                "3": "Location: Death Star 102",
-                "4": "Link: TBA"
-              }
-            }
-          }
-        }
-      },
       "next-steps": {
         "header": "Next Steps",
         "right-header": "Saturday, 9/12 through Monday, 9/14",
@@ -285,7 +191,13 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14"
+        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "sections": {
+          "1": {
+            "header": "Notification",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
       }
     }
   }
