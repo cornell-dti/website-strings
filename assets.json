@@ -21,7 +21,7 @@
   "pages": {
     "*": {
       "hero": {
-        "lazy": "/pages/$1$/hero/hero-lazy.png",
+        "lazy": "/pages/$1$/hero/hero-lazy.jpg",
         "video": "/pages/$1$/hero/hero.m4v",
         "image": "/pages/$1$/hero/hero@2x.png"
       }
