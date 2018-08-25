@@ -6,11 +6,12 @@ import ApplyJSON from './apply.json';
 import InitiativesJSON from './initiatives.json';
 import TeamJSON from './team.json';
 import ProjectsJSON from './projects.json';
-import SponsorJSON from './projects.json';
+import SponsorJSON from './sponsor.json';
 
 const DEFAULT_CONTEXT = 'default';
 
-const searchKey = function (key, json) {
+
+function searchKey(key, json) {
   let val = json[key];
 
   let path = '';
@@ -79,34 +80,48 @@ const searchKey = function (key, json) {
   }
 
   return val;
-};
+}
+
+/* eslint-disable class-methods-use-this */
 
 export default class JSONStringsBackend extends StringsBackend {
   getDefaultContext() {
     return DEFAULT_CONTEXT;
   }
 
-  _getString(key, context) {
+  resolveContext(context) {
     switch (context) {
       case DEFAULT_CONTEXT:
       case 'home':
-        return searchKey(key, HomeJSON);
+        return HomeJSON;
       case 'assets':
-        // TODO should we error out if null?
-        return `/static/${searchKey(key, AssetsJSON)}`;
+        return AssetsJSON;
       case 'apply':
-        return searchKey(key, ApplyJSON);
+        return ApplyJSON;
       case 'projects':
-        return searchKey(key, ProjectsJSON);
+        return ProjectsJSON;
       case 'initiatives':
-        return searchKey(key, InitiativesJSON);
+        return InitiativesJSON;
       case 'team':
-        return searchKey(key, TeamJSON);
+        return TeamJSON;
       case 'sponsor':
-        return searchKey(key, SponsorJSON);
+        return SponsorJSON;
       default:
         return null;
     }
+  }
+
+  _getString(key, context) {
+    const json = this.resolveContext(context);
+
+    if (json) {
+      if (context === 'assets') { // TODO should we error out if null?
+        return `/static/${searchKey(key, AssetsJSON)}`;
+      }
+      return searchKey(key, json);
+    }
+
+    return null;
   }
 
   _exists(key, context) {
@@ -115,17 +130,12 @@ export default class JSONStringsBackend extends StringsBackend {
   }
 
   _getChildrenKeysFor(key, context) {
-    switch (context) {
-      case DEFAULT_CONTEXT:
-      case 'home':
-        return searchKey(key, HomeJSON);
-      case 'assets':
-        // TODO should we error out if null?
-        return searchKey(key, AssetsJSON);
-      case 'apply':
-        return searchKey(key, ApplyJSON);
-      default:
-        return null;
+    const json = this.resolveContext(context);
+
+    if (json) {
+      return searchKey(key, json);
     }
+
+    return null;
   }
 }

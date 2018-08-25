@@ -22,11 +22,16 @@
     "*": {
       "hero": {
         "lazy": "/pages/$1$/hero/hero-lazy.jpg",
-        "video": "/pages/$1$/hero/hero.m4v",
+        "video": "/pages/$1$/hero/hero.webm",
         "image": "/pages/$1$/hero/hero@2x.png"
       }
     },
     "home": {
+      "hero": {
+        "lazy": "/pages/home/hero/hero-lazy.jpg",
+        "video": "/pages/home/hero/hero.webm",
+        "image": "/pages/home/hero/hero@2x.png"
+      },
       "quicklinks": {
         "initiatives": "~.jpg",
         "projects": "~.jpg",
