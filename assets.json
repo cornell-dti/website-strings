@@ -3,9 +3,6 @@
     "wordmark": "~.png",
     "icon": "/branding/brand-icon.svg"
   },
-  "promo": {
-    "*": "~.png"
-  },
   "directories": {
     "members": "/members"
   },
@@ -24,6 +21,16 @@
         "lazy": "/pages/$1$/hero/hero-lazy.jpg",
         "video": "/pages/$1$/hero/hero.webm",
         "image": "/pages/$1$/hero/hero.png"
+      }
+    },
+    "initiatives": {
+      "hero": {
+        "lazy": "/pages/home/hero/hero-lazy.jpg",
+        "video": "/pages/home/hero/hero.webm",
+        "image": "/pages/home/hero/hero.png"
+      },
+      "promo": {
+        "*": "~.png"
       }
     },
     "home": {
