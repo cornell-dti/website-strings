@@ -2,7 +2,7 @@
   "join-information": {},
   "hero": {
     "header": "Join Us",
-    "subheader": "We are Cornell Design &amo; Tech Initiative. But indivdually, we are a talented, diverse group of students from different colleges and countries striving to make a difference in our community. And that is really cool."
+    "subheader": "In every applicant, we above all look for people that want to use their talents and skills to make a difference. No matter your experience, we also strive to be as inclusive as possible and give passionate people a chance to grow and learn with us."
   },
   "info-session": {
     "header": "Info Sessions",
@@ -11,27 +11,27 @@
   },
   "info-sessions": {
     "1": {
-      "time": "Thursday, 9/12 • 5:30 PM",
-      "location": "Goldwin Smith Hall 132",
+      "time": "Thursday, 8/30 • 6:30 PM",
+      "location": "Klarman Hall G70",
       "link": {
         "text": "Facebook Event",
-        "url": ""
+        "url": "https://www.facebook.com/events/249139732596375/?event_time_id=249139739263041"
       }
     },
     "2": {
-      "time": "Tuesday, 9/10 • 5:30 PM",
-      "location": "Upson Hall 216",
+      "time": "Monday, 9/3 • 6:30 PM",
+      "location": "Klarman Hall G70",
       "link": {
         "text": "Facebook Event",
-        "url": ""
+        "url": "https://www.facebook.com/events/249139742596374"
       }
     }
   },
   "application-info": {
     "designer": {
       "apply": {
-        "header": "Design Application",
-        "right-header": "due 11:59 PM on Friday, 9/8",
+        "header": "Product Design Role",
+        "right-header": "due 11:59 PM on Thursday, 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -39,7 +39,7 @@
           },
           "2": {
             "header": "What You'll Do",
-            "content": "You will take on all of the responsibilities held by various design positions within the industry. Working with your team, you will do user and market research, interviewing members of your target audience and turning data points into actionable requirements for your project. You will work with low, medium, and high fidelity mockups to create user interfaces and interactions, and iterate with critiques and feedbacks. Lastly, you will actively test your solution and get user feedback to further improve upon the product."
+            "content": "You will take on all of the responsibilities held by various design positions within the industry, as well as help make high-level strategic decisions for the product you're workin on. You will do user and market research, interviewing members of your target audience and turning data points into actionable requirements for your project. You will work with low, medium, and high fidelity mockups to create user interfaces and interactions, and iterate with critiques and feedbacks from other team members. Lastly, you will actively test your solution and get user feedback to further improve upon the product."
           }
         },
         "call-to-action-button": {
@@ -48,7 +48,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "right-header": "Friday, 9/7 through Sunday, 9/9",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -62,27 +62,27 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "right-header": "by 11:59 PM on Monday, 9/10",
         "sections": {
           "1": {
             "header": "Notification",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "content": "Whether or not you receive an interview invitation, we will email you a definitive decision within a week of applying. We’re happy to answer any questions you have during this time through our email address."
           }
         }
       }
     },
     "developer": {
       "apply": {
-        "header": "Development Application",
-        "right-header": "due 11:59 PM on Friday, 9/8",
+        "header": "Software Development Role",
+        "right-header": "due 11:59 PM on Thursday, 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
-            "content": "We're looking for people who can advertise, get sponsorships, and be savvy on Excel"
+            "content": "You should be an inventive and communicate individual with a desire to learn new technologies and apply them to real-world problems. You should have some background in computer science or app/web development, but specific technologies will be taught within your project and we do not expect applicants to understand every aspect of application development."
           },
           "2": {
             "header": "What You'll Do",
-            "content": "You'll help us design cool tech initiatives"
+            "content": "You will be the backbone of a project, working closely with designers and other developers to bring concepts into reality. Front-end developers create everything a user will see. A front-end developer must implement mockups from designers while collaborating with back-end developers on the projects’ constraints and requirements. Back-end developers handle all the data processed behind the scenes. A back-end developer must understand the needs of front-end developers to create an informed and practical data source."
           }
         },
         "call-to-action-button": {
@@ -91,7 +91,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "right-header": "Friday, 9/7 through Sunday, 9/9",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -105,19 +105,19 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "right-header": "by 11:59 PM on Monday, 9/10",
         "sections": {
           "1": {
             "header": "Notification",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "content": "Whether or not you receive an interview invitation, we will email you a definitive decision within a week of applying. We’re happy to answer any questions you have during this time through our email address."
           }
         }
       }
     },
     "business": {
       "apply": {
-        "header": "Business Application",
-        "right-header": "due 11:59 PM on Friday, 9/8",
+        "header": "Business Analyst Role",
+        "right-header": "due 11:59 PM on Thursday, 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -134,7 +134,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "right-header": "Friday, 9/7 through Sunday, 9/9",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -148,19 +148,19 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "right-header": "by 11:59 PM on Monday, 9/10",
         "sections": {
           "1": {
             "header": "Notification",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "content": "Whether or not you receive an interview invitation, we will email you a definitive decision within a week of applying. We’re happy to answer any questions you have during this time through our email address."
           }
         }
       }
     },
     "pm": {
       "apply": {
-        "header": "Management Application",
-        "right-header": "due 11:59 PM on Friday, 9/8",
+        "header": "Product Management Role",
+        "right-header": "due 11:59 PM on Thursday, 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -177,7 +177,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Saturday, 9/12 through Monday, 9/14",
+        "right-header": "Friday, 9/7 through Sunday, 9/9",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -191,11 +191,11 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday, 9/14",
+        "right-header": "by 11:59 PM on Monday, 9/10",
         "sections": {
           "1": {
             "header": "Notification",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "content": "Whether or not you receive an interview invitation, we will email you a definitive decision within a week of applying. We’re happy to answer any questions you have during this time through our email address."
           }
         }
       }
