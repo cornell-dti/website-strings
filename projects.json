@@ -1,4 +1,8 @@
 {
+  "hero": {
+    "header": "",
+    "subheader": ""
+  },
   "footer": {},
   "projects": {
     "orientation": "projects.orientation",
