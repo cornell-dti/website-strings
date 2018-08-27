@@ -8,7 +8,35 @@ import TeamJSON from './team.json';
 import ProjectsJSON from './projects.json';
 import SponsorJSON from './sponsor.json';
 
+import EventsJSON from './projects/events.json';
+import OrientationJSON from './projects/orientation.json';
+import QueueMeInJSON from './projects/queuemein.json';
+import RescuerJSON from './projects/rescuer.json';
+import ResearchConnectJSON from './projects/researchconnect.json';
+import ReviewsJSON from './projects/reviews.json';
+import SamwiseJSON from './projects/samwise.json';
+import ShoutJSON from './projects/shout.json';
+
 const DEFAULT_CONTEXT = 'default';
+
+
+const JSONMap = {
+  home: HomeJSON,
+  assets: AssetsJSON,
+  apply: ApplyJSON,
+  projects: ProjectsJSON,
+  initiatives: InitiativesJSON,
+  team: TeamJSON,
+  sponsor: SponsorJSON,
+  'projects.events': EventsJSON,
+  'projects.orientation': OrientationJSON,
+  'projects.queuemein': QueueMeInJSON,
+  'projects.rescuer': RescuerJSON,
+  'projects.researchconnect': ResearchConnectJSON,
+  'projects.reviews': ReviewsJSON,
+  'projects.samwise': SamwiseJSON,
+  'projects.shout': ShoutJSON
+};
 
 
 function searchKey(key, json) {
@@ -63,7 +91,7 @@ function searchKey(key, json) {
       replacements[replacementIndex - 1]
     );
 
-    replacementIndex++;
+    replacementIndex += 1;
 
     while (val !== newStr) {
       val = newStr;
@@ -73,7 +101,7 @@ function searchKey(key, json) {
         replacements[replacementIndex - 1]
       );
 
-      replacementIndex++;
+      replacementIndex += 1;
     }
   } else if (typeof val === 'object') {
     val = Object.keys(val);
@@ -90,34 +118,26 @@ export default class JSONStringsBackend extends StringsBackend {
   }
 
   resolveContext(context) {
-    switch (context) {
-      case DEFAULT_CONTEXT:
-      case 'home':
-        return HomeJSON;
-      case 'assets':
-        return AssetsJSON;
-      case 'apply':
-        return ApplyJSON;
-      case 'projects':
-        return ProjectsJSON;
-      case 'initiatives':
-        return InitiativesJSON;
-      case 'team':
-        return TeamJSON;
-      case 'sponsor':
-        return SponsorJSON;
-      default:
-        return null;
+    if (context === this.getDefaultContext()) {
+      return HomeJSON;
     }
+
+    return JSONMap[context];
   }
 
   _getString(key, context) {
     const json = this.resolveContext(context);
 
+
     if (json) {
+      if (key === '' || key === null) {
+        return json;
+      }
+
       if (context === 'assets') { // TODO should we error out if null?
         return `/static/${searchKey(key, AssetsJSON)}`;
       }
+
       return searchKey(key, json);
     }
 

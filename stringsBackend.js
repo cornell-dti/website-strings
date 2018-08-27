@@ -1,3 +1,5 @@
+/* eslint-disable class-methods-use-this, no-unused-vars */
+
 export default class StringsBackend {
   /**
    * Retrieves the default context for the backend. This function should be implemented by
@@ -39,6 +41,7 @@ export default class StringsBackend {
    * @param {*} context the context from which to derive the string from
    *
    * @returns the given string for the key in context or null if not found
+   *
    */
   _getString(key, context) {
     return null;

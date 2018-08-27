@@ -23,14 +23,14 @@
       "hero": {
         "lazy": "/pages/$1$/hero/hero-lazy.jpg",
         "video": "/pages/$1$/hero/hero.webm",
-        "image": "/pages/$1$/hero/hero@2x.png"
+        "image": "/pages/$1$/hero/hero.png"
       }
     },
     "home": {
       "hero": {
         "lazy": "/pages/home/hero/hero-lazy.jpg",
         "video": "/pages/home/hero/hero.webm",
-        "image": "/pages/home/hero/hero@2x.png"
+        "image": "/pages/home/hero/hero.png"
       },
       "quicklinks": {
         "initiatives": "~.jpg",

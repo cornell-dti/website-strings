@@ -1,4 +1,4 @@
-//todo
+// todo
 import JSONStringsBackend from './jsonStringsBackend';
 import StringsFrontend from './strings';
 

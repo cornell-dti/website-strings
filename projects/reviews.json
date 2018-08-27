@@ -1,0 +1,14 @@
+{
+  "name": "CU Reviews",
+  "id": "reviews",
+  "teamId": "reviews",
+  "badge": "test1.png",
+  "logo": "img/portfolio/reviews-mockup.png",
+  "website": "http://www.CUreviews.org",
+  "website-title": "CUReviews.org",
+  "github": "https://github.com/cornell-dti/course-reviews-react-2.0",
+  "image": "img/portfolio/reviews/Posting.png",
+  "description": "Honest feedback about courses that you're planning to take is hard to come by. CU Reviews solves precisely this problem, by giving students access to student-submitted reviews of Cornell courses from past semesters. Learn more about the difficulty, median grade, and quality of the classes that you're planning to take!",
+  "heroStartingColor": "#a1c4fd",
+  "heroEndingColor": "#c2e9fb"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Research Connect",
+  "id": "researchconnect",
+  "badge": "test2.jpg",
+  "teamId": "research",
+  "image": "img/portfolio/research-mockup.png",
+  "description": "The abundance of undergraduate research opportunities is one of the great things about Cornell, yet unfortunately the process of finding these opportunities is still very unstructured. One must knock on doors, send countless emails to professors, and make do with obsolete web pages to seek research opportunities. Research Connect aims to bridge this gap by providing a structured platform where students can find opportunities, and research labs can find the students they are looking for.",
+
+  "github": "https://github.com/cornell-dti/research-connect",
+  "heroStartingColor": " #f5515f",
+  "heroEndingColor": " #faaca8"
+}

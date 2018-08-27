@@ -1,0 +1,30 @@
+{
+  "name": "CU Orientation",
+  "logo": "img/portfolio/oweek-logo.png",
+  "id": "orientation",
+  "badge": "test2.jpg",
+  "teamId": "orientation",
+  "description": "Orientation Week is an exciting and equally nervous time for incoming freshmen and transfer students, but we were perplexed by one simple inefficiency: the orientation booklet. Everyone would carry around the 20-page booklet everywhere, only to get overwhelmed with follow-up emails about updated and canceled events. So, we digitized it! CU Orientation displays all scheduled events for the week, filters for events, and directions to each event. This app has been used by more than 2,000 incoming freshmen during August 2017 and January 2018 orientation!",
+  "images": [{
+      "src": "img/portfolio/oweek/1.jpg"
+    },
+    {
+      "src": "img/portfolio/oweek/2.jpg"
+    },
+    {
+      "src": "img/portfolio/oweek/3.jpg"
+    },
+    {
+      "src": "img/portfolio/oweek/4.jpg"
+    },
+    {
+      "src": "img/portfolio/oweek/5.jpg"
+    }
+  ],
+  "appstore": "https://itunes.apple.com/us/app/cu-orientation/id1244530142?mt=8",
+  "playstore": "https://play.google.com/store/apps/details?id=com.cornellsatech.o_week",
+  "ios-github": "https://github.com/cornell-dti/o-week-ios",
+  "android-github": "https://github.com/cornell-dti/o-week-android",
+  "heroStartingColor": "#a1c4fd",
+  "heroEndingColor": "#c2e9fb"
+}

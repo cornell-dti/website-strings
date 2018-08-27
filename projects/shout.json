@@ -1,0 +1,30 @@
+{
+  "name": "Shout",
+  "id": "shout",
+  "logo": "img/portfolio/cu-rescuer-logo.png",
+  "badge": "test3.jpg",
+  "teamId": "safety",
+  "images": [{
+      "src": "img/portfolio/rescuer/1.jpg"
+    },
+    {
+      "src": "img/portfolio/rescuer/2.jpg"
+    },
+    {
+      "src": "img/portfolio/rescuer/3.jpg"
+    },
+    {
+      "src": "img/portfolio/rescuer/4.jpg"
+    },
+    {
+      "src": "img/portfolio/rescuer/5.jpg"
+    }
+  ],
+  "description": "A campus safety app that helps students find blue lights around them, get in touch with taxi services, get directions to home, and call emergency services, all at the touch of a button. This app has been released for iOS and Android phones! The team is now working to combat the problem of sexual assault, which plagues college campuses nationwide, by building an anonymous reporting service for survivors. The collected data will be mapped to warn other users of potentially dangerous areas on campus.",
+  "appstore": "https://itunes.apple.com/us/app/cornell-rescuer/id1209164387?mt=8",
+  "playstore": "https://play.google.com/store/apps/details?id=cornell.sa.rescuer",
+  "ios-github": "https://github.com/cornell-dti/Rescuer",
+  "android-github": "https://github.com/cornell-dti/resCUer-app-android",
+  "heroStartingColor": "#d7fffe",
+  "heroEndingColor": "rgba(216, 216, 216, 0.25)"
+}

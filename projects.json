@@ -1,3 +1,15 @@
 {
-  "footer": {}
+  "footer": {},
+  "projects": {
+    "orientation": "projects.orientation",
+    "queuemein": "projects.queuemein",
+    "researchconnect": "projects.researchconnect",
+    "reviews": "projects.reviews",
+    "samwise": "projects.samwise",
+    "shout": "projects.shout"
+  },
+  "not-ready-projects": {
+    "rescuer": "projects.rescuer",
+    "events": "projects.events"
+  }
 }
