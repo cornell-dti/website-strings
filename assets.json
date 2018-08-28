@@ -19,15 +19,27 @@
     "*": {
       "hero": {
         "lazy": "/pages/$1$/hero/hero-lazy.jpg",
-        "video": "/pages/$1$/hero/hero.webm",
+        "video": "/pages/$1$/hero/hero.m4v",
         "image": "/pages/$1$/hero/hero.png"
+      }
+    },
+    "sponsor": {
+      "hero": {
+        "lazy": "/pages/sponsor/hero/hero-lazy.jpg",
+        "video": "/pages/sponsor/hero/hero.m4v",
+        "image": "/pages/sponsor/hero/hero.png"
+      },
+      "sponsors": {
+        "invision": "/pages/sponsor/sponsors/invision.png",
+        "google": "/pages/sponsor/sponsors/google.png",
+        "cornell-engineering-alumni": "/pages/sponsor/sponsors/cornellengineeringalumni.png"
       }
     },
     "initiatives": {
       "hero": {
-        "lazy": "/pages/home/hero/hero-lazy.jpg",
-        "video": "/pages/home/hero/hero.webm",
-        "image": "/pages/home/hero/hero.png"
+        "lazy": "/pages/initiatives/hero/hero-lazy.jpg",
+        "video": "/pages/initiatives/hero/hero.m4v",
+        "image": "/pages/intiatives/hero/hero.png"
       },
       "promo": {
         "*": "~.png"
@@ -36,7 +48,7 @@
     "home": {
       "hero": {
         "lazy": "/pages/home/hero/hero-lazy.jpg",
-        "video": "/pages/home/hero/hero.webm",
+        "video": "/pages/home/hero/hero.m4v",
         "image": "/pages/home/hero/hero.png"
       },
       "quicklinks": {
