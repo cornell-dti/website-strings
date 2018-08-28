@@ -3,14 +3,14 @@
     "teamId": "samwise",
     "id": "samwise",
     "header": "Project Samwise",
-    "subheader": "Your Student Life. Visualized.",
+    "subheader": "A Student Planner for Everyone.",
     "hero" : {
       "header" : "What We Do",
       "subheader" : "Managing a full credit-load and a healthy life is difficult. As due dates approach, it becomes easy to misjudge the amount of work remaining for any given assignment. By creating your tangible timeline, completing work no longer means giving up sleep."
     },
     "github": "https://github.com/cornell-dti/project-samwise",
     "heroStartingColor": "#FF7A02",
-    "heroEndingColor": "#FFFFFF",
+    "heroEndingColor": "#FFF7E8",
     "heroUseDarkText" : true,
     "features": {
       "one": {

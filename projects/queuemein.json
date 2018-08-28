@@ -13,7 +13,7 @@
   "github" : "https://github.com/cornell-dti/office-hours",
   "heroStartingColor" : "#CFC1FC",
   "heroEndingColor" : "#FAACA8",
-  "heroUseDarkText" : false,
+  "heroUseDarkText" : true,
   "features": {
     "one": {
       "title": "Pick a Session.",
