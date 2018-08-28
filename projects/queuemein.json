@@ -15,15 +15,15 @@
   "heroEndingColor" : "#FAACA8",
   "heroUseDarkText" : true,
   "features": {
-    "one": {
+    "1": {
       "title": "Pick a Session.",
       "description": "Browse upcoming office hours by day to pick one that works best for you. You can see whether or not the queue has opened, and how many students have already entered a question!"
     },
-    "two": {
+    "2": {
       "title": "Add Your Question.",
       "description": "Join an office hour session! By adding your question, you can secure your place in line without worrying about other students cutting in."
     },
-    "three": {
+    "3": {
       "title": "View the Queue.",
       "description": "You can find an opportunity to listen in for a question you also have, or view other questions asked to understand overall problem areas."
     }

@@ -11,7 +11,6 @@ import SponsorJSON from './sponsor.json';
 import EventsJSON from './projects/events.json';
 import OrientationJSON from './projects/orientation.json';
 import QueueMeInJSON from './projects/queuemein.json';
-import RescuerJSON from './projects/rescuer.json';
 import ResearchConnectJSON from './projects/researchconnect.json';
 import ReviewsJSON from './projects/reviews.json';
 import SamwiseJSON from './projects/samwise.json';
@@ -31,7 +30,6 @@ const JSONMap = {
   'projects.events': EventsJSON,
   'projects.orientation': OrientationJSON,
   'projects.queuemein': QueueMeInJSON,
-  'projects.rescuer': RescuerJSON,
   'projects.researchconnect': ResearchConnectJSON,
   'projects.reviews': ReviewsJSON,
   'projects.samwise': SamwiseJSON,

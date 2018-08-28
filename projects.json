@@ -5,6 +5,7 @@
   },
   "footer": {},
   "projects": {
+    "events": "projects.events",
     "orientation": "projects.orientation",
     "queuemein": "projects.queuemein",
     "researchconnect": "projects.researchconnect",
@@ -13,7 +14,7 @@
     "shout": "projects.shout"
   },
   "not-ready-projects": {
-    "rescuer": "projects.rescuer",
-    "events": "projects.events"
+    "rescuer": "projects.rescuer"
+
   }
 }

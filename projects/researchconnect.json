@@ -16,15 +16,15 @@
   "heroEndingColor" : "#FAACA8",
   "heroUseDarkText" : false,
   "features": {
-    "one": {
+    "1": {
       "title": "Find Research Opportunities.",
       "description": "Instead of having to email a plethora of researchers, many of whom aren’t even accepting undergrads, we streamline the process by showing undergrads all the opportunities available to them."
     },
-    "two": {
+    "2": {
       "title": "View Requirements. Apply Online.",
       "description": "Find out exactly what requirements the lab is searching for so you don’t waste your time applying for positions that don’t match your background. You can also apply straight from our platform to avoid going back and forth with emails."
     },
-    "three": {
+    "3": {
       "title": "Search Through Faculty. (Coming Soon)",
       "description": "Search for faculty in all departments who are conducting research in a specific area so you don’t miss out on those professors in other departments conducting work that you’d be interested in. Also see which professors are open to receiving undergrad research requests so you don’t waste your time emailing uninterested labs."
     }
