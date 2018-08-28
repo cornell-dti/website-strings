@@ -1,0 +1,9 @@
+{
+  "name": "Queue Me In",
+  "id": "queuemein",
+  "badge": "test1.png",
+  "teamId": "officehours",
+  "image": "img/portfolio/qmi-mockups.png",
+  "description": "With an exponential increase in enrollment in popular majors such as Computer Science and Information Science, TA office hours have become a relatively scarce resource. Long wait times and overcrowded rooms are the norm in these majors – hence, we’re building an online queuing solution, which is designed to bring some amount of order to this chaos.",
+  "github": "https://github.com/cornell-dti/office-hours"
+}
