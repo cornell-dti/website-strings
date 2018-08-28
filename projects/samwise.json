@@ -2,15 +2,16 @@
     "name": "Project Samwise",
     "teamId": "samwise",
     "id": "samwise",
-    "badge": "",
-    "logo": "",
-    "image": "",
     "header": "Project Samwise",
     "subheader": "Your Student Life. Visualized.",
-    "description": "Managing a full credit-load and a healthy life is difficult. As due dates approach, it becomes easy to misjudge the amount of work remaining for any given assignment. By creating your tangible timeline, completing work no longer means giving up sleep.",
+    "hero" : {
+      "header" : "What We Do",
+      "subheader" : "Managing a full credit-load and a healthy life is difficult. As due dates approach, it becomes easy to misjudge the amount of work remaining for any given assignment. By creating your tangible timeline, completing work no longer means giving up sleep."
+    },
     "github": "https://github.com/cornell-dti/project-samwise",
-    "heroStartingColor": "#efefef",
-    "heroEndingColor": "#fefefe",
+    "heroStartingColor": "#FF7A02",
+    "heroEndingColor": "#FFFFFF",
+    "heroUseDarkText" : true,
     "features": {
       "one": {
         "title": "Seize Your Day.",

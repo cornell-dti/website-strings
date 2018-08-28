@@ -1,9 +1,31 @@
 {
   "name": "Queue Me In",
-  "id": "queuemein",
-  "badge": "test1.png",
-  "teamId": "officehours",
-  "image": "img/portfolio/qmi-mockups.png",
-  "description": "With an exponential increase in enrollment in popular majors such as Computer Science and Information Science, TA office hours have become a relatively scarce resource. Long wait times and overcrowded rooms are the norm in these majors – hence, we’re building an online queuing solution, which is designed to bring some amount of order to this chaos.",
-  "github": "https://github.com/cornell-dti/office-hours"
+  "id": "queue-me-in",
+  "teamId": "queue-me-in",
+  "header": "Queue Me In",
+  "subheader": "Office Hours. Simplified.",
+  "hero" : {
+    "header" : "What We Do",
+    "subheader" : "Office hours are too crowded and unorganized. Queue Me In removes the frustration from office hours by helping students get support and professors better understand their class."
+  },
+  "website" : "queueme.in",
+  "website-title" : "Queue Me In",
+  "github" : "https://github.com/cornell-dti/office-hours",
+  "heroStartingColor" : "#CFC1FC",
+  "heroEndingColor" : "#FAACA8",
+  "heroUseDarkText" : false,
+  "features": {
+    "one": {
+      "title": "Pick a Session.",
+      "description": "Browse upcoming office hours by day to pick one that works best for you. You can see whether or not the queue has opened, and how many students have already entered a question!"
+    },
+    "two": {
+      "title": "Add Your Question.",
+      "description": "Join an office hour session! By adding your question, you can secure your place in line without worrying about other students cutting in."
+    },
+    "three": {
+      "title": "View the Queue.",
+      "description": "You can find an opportunity to listen in for a question you also have, or view other questions asked to understand overall problem areas."
+    }
+  }
 }
