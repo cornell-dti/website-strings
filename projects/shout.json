@@ -1,30 +1,30 @@
 {
   "name": "Shout",
   "id": "shout",
-  "logo": "img/portfolio/cu-rescuer-logo.png",
-  "badge": "test3.jpg",
   "teamId": "safety",
-  "images": [{
-      "src": "img/portfolio/rescuer/1.jpg"
+  "header": "Shout",
+  "subheader": "Reach Out. Find Out. Go Out.",
+  "hero" : {
+    "header" : "What We Do",
+    "subheader" : "Shout helps raise awareness of sexual assault on campus and gives survivors a voice to share their stories and locate regions on campus where incidents have occurred."
+  },
+  "ios-github": "https://github.com/cornell-dti/shout-ios",
+  "android-github": "https://github.com/cornell-dti/shout-android",
+  "heroStartingColor": "#A1F6F4",
+  "heroEndingColor": "#FAFAFA",
+  "heroUseDarkText" : false,
+  "features": {
+    "one": {
+      "title": "Find Out.",
+      "description": "Newsfeed that lists all of the reports and stories that are posted to the app. The reports include a title, brief description, date, and location and can be clicked on to see more information."
     },
-    {
-      "src": "img/portfolio/rescuer/2.jpg"
+    "two": {
+      "title": "Go Out.",
+      "description": "The map interface that includes a search bar to find locations and reports on campus."
     },
-    {
-      "src": "img/portfolio/rescuer/3.jpg"
-    },
-    {
-      "src": "img/portfolio/rescuer/4.jpg"
-    },
-    {
-      "src": "img/portfolio/rescuer/5.jpg"
+    "three": {
+      "title": "Reach Out.",
+      "description": "The Resources page that lists hotlines available for those in need and organizations and centers to contact on campus."
     }
-  ],
-  "description": "A campus safety app that helps students find blue lights around them, get in touch with taxi services, get directions to home, and call emergency services, all at the touch of a button. This app has been released for iOS and Android phones! The team is now working to combat the problem of sexual assault, which plagues college campuses nationwide, by building an anonymous reporting service for survivors. The collected data will be mapped to warn other users of potentially dangerous areas on campus.",
-  "appstore": "https://itunes.apple.com/us/app/cornell-rescuer/id1209164387?mt=8",
-  "playstore": "https://play.google.com/store/apps/details?id=cornell.sa.rescuer",
-  "ios-github": "https://github.com/cornell-dti/Rescuer",
-  "android-github": "https://github.com/cornell-dti/resCUer-app-android",
-  "heroStartingColor": "#d7fffe",
-  "heroEndingColor": "rgba(216, 216, 216, 0.25)"
+  }
 }

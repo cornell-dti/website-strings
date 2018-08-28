@@ -1,12 +1,32 @@
 {
   "name": "Research Connect",
   "id": "researchconnect",
-  "badge": "test2.jpg",
   "teamId": "research",
-  "image": "img/portfolio/research-mockup.png",
-  "description": "The abundance of undergraduate research opportunities is one of the great things about Cornell, yet unfortunately the process of finding these opportunities is still very unstructured. One must knock on doors, send countless emails to professors, and make do with obsolete web pages to seek research opportunities. Research Connect aims to bridge this gap by providing a structured platform where students can find opportunities, and research labs can find the students they are looking for.",
-
-  "github": "https://github.com/cornell-dti/research-connect",
-  "heroStartingColor": " #f5515f",
-  "heroEndingColor": " #faaca8"
+  "header": "Research Connect",
+  "subheader": "Handshake for Lab Research.",
+  "hero" : {
+    "header" : "What We Do",
+    "subheader" : "Large universities have so many research opportunities, but so little ways to find out about them. Research Connect provides a structured platform where students can find opportunities and research labs can find the students they are looking for."
+  },
+  "website" : "https://www.research-connect.com",
+  "website-title" : "Research Connect",
+  "github" : "https://github.com/cornell-dti/research-connect",
+  "external" : "http://cornellsun.com/2018/04/24/cornellians-share-business-plans-in-competition-promoting-entrepreneurship/",
+  "heroStartingColor" : "#FAACA8",
+  "heroEndingColor" : "#FAACA8",
+  "heroUseDarkText" : false,
+  "features": {
+    "one": {
+      "title": "Find Research Opportunities.",
+      "description": "Instead of having to email a plethora of researchers, many of whom aren’t even accepting undergrads, we streamline the process by showing undergrads all the opportunities available to them."
+    },
+    "two": {
+      "title": "View Requirements. Apply Online.",
+      "description": "Find out exactly what requirements the lab is searching for so you don’t waste your time applying for positions that don’t match your background. You can also apply straight from our platform to avoid going back and forth with emails."
+    },
+    "three": {
+      "title": "Search Through Faculty. (Coming Soon)",
+      "description": "Search for faculty in all departments who are conducting research in a specific area so you don’t miss out on those professors in other departments conducting work that you’d be interested in. Also see which professors are open to receiving undergrad research requests so you don’t waste your time emailing uninterested labs."
+    }
+  }
 }
