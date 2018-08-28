@@ -12,7 +12,7 @@
   "android-github": "https://github.com/cornell-dti/shout-android",
   "heroStartingColor": "#A1F6F4",
   "heroEndingColor": "#FAFAFA",
-  "heroUseDarkText" : false,
+  "heroUseDarkText" : true,
   "features": {
     "one": {
       "title": "Find Out.",
