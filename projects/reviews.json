@@ -12,7 +12,7 @@
   "website-title" : "CU Reviews",
   "github" : "https://github.com/cornell-dti/course-reviews-react-2.0",
   "external" : "http://cornellsun.com/2018/05/09/website-designed-by-students-provides-more-comprehensive-course-information/",
-  "heroStartingColor" : "#A1C4FD",
+  "heroStartingColor" : "#619DFE",
   "heroEndingColor" : "#C2E9FB",
   "heroUseDarkText" : false,
   "features": {
