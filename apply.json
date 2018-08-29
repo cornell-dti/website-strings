@@ -31,7 +31,7 @@
     "designer": {
       "apply": {
         "header": "Product Design Role",
-        "right-header": "due 11:59 PM on Thursday, 9/6",
+        "right-header": "due 11:59 PM on Thursday 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -49,7 +49,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday, 9/7 through Sunday, 9/10",
+        "right-header": "Friday 9/7 through Sunday 9/10",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -63,7 +63,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Monday, 9/12",
+        "right-header": "by 11:59 PM on Monday 9/12",
         "sections": {
           "1": {
             "header": "Notification",
@@ -75,7 +75,7 @@
     "developer": {
       "apply": {
         "header": "Software Development Role",
-        "right-header": "due 11:59 PM on Thursday, 9/6",
+        "right-header": "due 11:59 PM on Thursday 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -93,7 +93,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday, 9/7 through Sunday, 9/10",
+        "right-header": "Friday 9/7 through Sunday 9/10",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -107,7 +107,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Monday, 9/12",
+        "right-header": "by 11:59 PM on Monday 9/12",
         "sections": {
           "1": {
             "header": "Notification",
@@ -119,7 +119,7 @@
     "business": {
       "apply": {
         "header": "Business Analyst Role",
-        "right-header": "due 11:59 PM on Thursday, 9/6",
+        "right-header": "due 11:59 PM on Thursday 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -137,7 +137,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday, 9/7 through Sunday, 9/10",
+        "right-header": "Friday 9/7 through Sunday 9/10",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -151,7 +151,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Monday, 9/12",
+        "right-header": "by 11:59 PM on Monday 9/12",
         "sections": {
           "1": {
             "header": "Notification",
@@ -163,7 +163,7 @@
     "pm": {
       "apply": {
         "header": "Product Management Role",
-        "right-header": "due 11:59 PM on Thursday, 9/6",
+        "right-header": "due 11:59 PM on Thursday 9/6",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -181,7 +181,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday, 9/7 through Sunday, 9/10",
+        "right-header": "Friday 9/7 through Sunday 9/10",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -195,7 +195,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Monday, 9/12",
+        "right-header": "by 11:59 PM on Monday 9/12",
         "sections": {
           "1": {
             "header": "Notification",
