@@ -13,15 +13,15 @@
     "heroEndingColor": "#FFF7E8",
     "heroUseDarkText" : false,
     "features": {
-      "one": {
+      "1": {
         "title": "Seize Your Day.",
         "description": "Getting overwhelmed by looming assignments is not why you attend university. Samwise supports your sanity by presenting only what you need to be successful today."
       },
-      "two": {
+      "2": {
         "title": "Plan Ahead.",
         "description": "Seeing is believing. Add tasks with confidence as Samwise helps manage your workload days ahead. Work smarter, not harder."
       },
-      "three": {
+      "3": {
         "title": "Focus On What Matters.",
         "description": "Remembering every task required for a specific assignment is hard. Take the guesswork out of homework with subtasks that work for you. Samwise brings your deadlines into focus, one step at a time."
       }

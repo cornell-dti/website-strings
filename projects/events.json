@@ -15,15 +15,15 @@
   "heroEndingColor" : "#978CFF",
   "heroUseDarkText" : false,
   "features": {
-    "one": {
+    "1": {
       "title": "Trending Now.",
       "description": "Whether it’s a busy Monday or a casual weekend, Events lets you know what’s happening on campus."
     },
-    "two": {
+    "2": {
       "title": "Manage Your Events.",
       "description": "Track all the events you’re interested in with the app, anywhere on-the-go."
     },
-    "three": {
+    "3": {
       "title": "Stay Updated.",
       "description": "Events makes it easy to stay up to date with all the organizations you care about."
     }

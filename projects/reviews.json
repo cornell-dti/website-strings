@@ -16,15 +16,15 @@
   "heroEndingColor" : "#C2E9FB",
   "heroUseDarkText" : false,
   "features": {
-    "one": {
+    "1": {
       "title": "Search for Classes.",
       "description": "Search for Cornell classes using our wicked fast search."
     },
-    "two": {
+    "2": {
       "title": "Write a Review.",
       "description": "Write about the class, plus rate its difficulty and workload."
     },
-    "three": {
+    "3": {
       "title": "Check Out Class Reviews.",
       "description": "Read what other students have to say about the class."
     }

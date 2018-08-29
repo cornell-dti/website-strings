@@ -13,15 +13,15 @@
   "heroEndingColor" : "#FF324A",
   "heroUseDarkText" : false,
   "features": {
-    "one": {
+    "1": {
       "title": "Simple, But Bold.",
       "description": "All of our feature pages include an autoplaying video to take users inside what it’s like to be a DTI member. Each of our pages follows a consistent design language that conveys the content of the page at a glance. Between each of these features, users are drawn to scroll and experience more of the website and find out more about our team."
     },
-    "two": {
+    "2": {
       "title": "Showcasing Diversity.",
       "description": "We especially care about having a diverse team full of unique perspectives, and we wanted to highlight our commitment on our Team page. View our statistics at a glance with our interactive chart visual."
     },
-    "three": {
+    "3": {
       "title": "Apply Online.",
       "description": "One of our biggest requests was a dedicated application page for students applying to our team. We made it easy for all interested applicants to find out about the recruitment process year-round."
     }

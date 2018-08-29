@@ -16,15 +16,15 @@
   "heroEndingColor" : "#FAACA8",
   "heroUseDarkText" : false,
   "features": {
-    "one": {
+    "1": {
       "title": "Find Research Opportunities.",
       "description": "Instead of having to email researchers, we streamline the process by showing undergrads all of the opportunities available to them."
     },
-    "two": {
+    "2": {
       "title": "View Requirements. Apply Online.",
       "description": "Find out exactly what requirements a lab is searching for that match your background."
     },
-    "three": {
+    "3": {
       "title": "Search Faculty.",
       "description": "Search for faculty across all departments to find out who is conducting research and whether they’re looking for students. (Coming Soon)"
     }
