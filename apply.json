@@ -43,8 +43,12 @@
           }
         },
         "call-to-action-button": {
-          "content": "Applications Open on 8/30",
-          "link": "/#"
+          "content": "Apply (First-year students)",
+          "link": "https://goo.gl/forms/IStou4f1N2c1Qckc2"
+        },
+        "call-to-action-button-2": {
+          "content": "Apply (Everyone else)",
+          "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         }
       },
       "next-steps": {
@@ -87,8 +91,12 @@
           }
         },
         "call-to-action-button": {
-          "content": "Applications Open on 8/30",
-          "link": "/#"
+          "content": "Apply (First-year students)",
+          "link": "https://goo.gl/forms/IStou4f1N2c1Qckc2"
+        },
+        "call-to-action-button-2": {
+          "content": "Apply (Everyone else)",
+          "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         }
       },
       "next-steps": {
@@ -131,8 +139,12 @@
           }
         },
         "call-to-action-button": {
-          "content": "Applications Open on 8/30",
-          "link": "/#"
+          "content": "Apply (First-year students)",
+          "link": "https://goo.gl/forms/IStou4f1N2c1Qckc2"
+        },
+        "call-to-action-button-2": {
+          "content": "Apply (Everyone else)",
+          "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         }
       },
       "next-steps": {
@@ -175,8 +187,12 @@
           }
         },
         "call-to-action-button": {
-          "content": "Applications Open on 8/30",
-          "link": "/#"
+          "content": "First-Year Student Application",
+          "link": "https://goo.gl/forms/IStou4f1N2c1Qckc2"
+        },
+        "call-to-action-button-2": {
+          "content": "Everyone Else, Apply Here",
+          "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         }
       },
       "next-steps": {
