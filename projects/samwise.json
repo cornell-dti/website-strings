@@ -11,7 +11,7 @@
     "github": "https://github.com/cornell-dti/project-samwise",
     "heroStartingColor": "#FF7A02",
     "heroEndingColor": "#FFF7E8",
-    "heroUseDarkText" : true,
+    "heroUseDarkText" : false,
     "features": {
       "1": {
         "title": "Seize Your Day.",

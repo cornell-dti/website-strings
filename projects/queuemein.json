@@ -8,12 +8,10 @@
     "header" : "What We Do",
     "subheader" : "Office hours are too crowded and unorganized. Queue Me In removes the frustration from office hours by helping students get support and professors better understand their class."
   },
-  "website" : "https://queueme.in",
-  "website-title" : "Queue Me In",
   "github" : "https://github.com/cornell-dti/office-hours",
-  "heroStartingColor" : "#CFC1FC",
-  "heroEndingColor" : "#FAACA8",
-  "heroUseDarkText" : true,
+  "heroStartingColor" : "#7D82FF",
+  "heroEndingColor" : "#FFFFFF",
+  "heroUseDarkText" : false,
   "features": {
     "1": {
       "title": "Pick a Session.",

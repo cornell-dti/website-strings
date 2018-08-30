@@ -6,7 +6,7 @@
   "subheader": "Handshake for Lab Research.",
   "hero" : {
     "header" : "What We Do",
-    "subheader" : "Large universities have so many research opportunities, but so little ways to find out about them. Research Connect provides a structured platform where students can find opportunities and research labs can find the students they are looking for."
+    "subheader" : "Large universities have so many research opportunities, but few ways to find out about them. Research Connect is a platform where students can find opportunities and research labs can find students they’re looking for."
   },
   "website" : "https://www.research-connect.com",
   "website-title" : "Research Connect",
@@ -18,15 +18,15 @@
   "features": {
     "1": {
       "title": "Find Research Opportunities.",
-      "description": "Instead of having to email a plethora of researchers, many of whom aren’t even accepting undergrads, we streamline the process by showing undergrads all the opportunities available to them."
+      "description": "Instead of having to email researchers, we streamline the process by showing undergrads all of the opportunities available to them."
     },
     "2": {
       "title": "View Requirements. Apply Online.",
-      "description": "Find out exactly what requirements the lab is searching for so you don’t waste your time applying for positions that don’t match your background. You can also apply straight from our platform to avoid going back and forth with emails."
+      "description": "Find out exactly what requirements a lab is searching for that match your background."
     },
     "3": {
-      "title": "Search Through Faculty. (Coming Soon)",
-      "description": "Search for faculty in all departments who are conducting research in a specific area so you don’t miss out on those professors in other departments conducting work that you’d be interested in. Also see which professors are open to receiving undergrad research requests so you don’t waste your time emailing uninterested labs."
+      "title": "Search Faculty.",
+      "description": "Search for faculty across all departments to find out who is conducting research and whether they’re looking for students. (Coming Soon)"
     }
   }
 }
