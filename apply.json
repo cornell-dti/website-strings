@@ -31,7 +31,7 @@
     "designer": {
       "apply": {
         "header": "Product Design Role",
-        "right-header": "due 11:59 PM on Thursday 9/6",
+        "right-header": "due 11:59 PM on Monday 10/1",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -43,7 +43,7 @@
           }
         },
         "call-to-action-button": {
-          "content": "General Application",
+          "content": "General Application (closed)",
           "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         },
         "call-to-action-button-2": {
@@ -53,7 +53,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday 9/7 through Sunday 9/10",
+        "right-header": "Tuesday 10/2 through Sunday 10/14",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -67,7 +67,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday 9/11",
+        "right-header": "by 11:59 PM on Monday 10/15",
         "sections": {
           "1": {
             "header": "Notification",
@@ -79,7 +79,7 @@
     "developer": {
       "apply": {
         "header": "Software Development Role",
-        "right-header": "due 11:59 PM on Thursday 9/6",
+        "right-header": "due 11:59 PM on Monday 10/1",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -91,7 +91,7 @@
           }
         },
         "call-to-action-button": {
-          "content": "General Application",
+          "content": "General Application (closed)",
           "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         },
         "call-to-action-button-2": {
@@ -101,7 +101,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday 9/7 through Sunday 9/10",
+        "right-header": "Tuesday 10/2 through Sunday 10/14",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -115,7 +115,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday 9/11",
+        "right-header": "by 11:59 PM on Monday 10/15",
         "sections": {
           "1": {
             "header": "Notification",
@@ -127,7 +127,7 @@
     "business": {
       "apply": {
         "header": "Business Analyst Role",
-        "right-header": "due 11:59 PM on Thursday 9/6",
+        "right-header": "due 11:59 PM on Monday 10/1",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -139,7 +139,7 @@
           }
         },
         "call-to-action-button": {
-          "content": "General Application",
+          "content": "General Application (closed)",
           "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         },
         "call-to-action-button-2": {
@@ -149,7 +149,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday 9/7 through Sunday 9/10",
+        "right-header": "Tuesday 10/2 through Sunday 10/14",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -163,7 +163,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday 9/11",
+        "right-header": "by 11:59 PM on Monday 10/15",
         "sections": {
           "1": {
             "header": "Notification",
@@ -175,7 +175,7 @@
     "pm": {
       "apply": {
         "header": "Product Management Role",
-        "right-header": "due 11:59 PM on Thursday 9/6",
+        "right-header": "due 11:59 PM on Monday 10/1",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -187,7 +187,7 @@
           }
         },
         "call-to-action-button": {
-          "content": "General Application",
+          "content": "General Application (closed)",
           "link": "https://goo.gl/forms/c7EKz2heQj2t1pU12"
         },
         "call-to-action-button-2": {
@@ -197,7 +197,7 @@
       },
       "next-steps": {
         "header": "Next Steps",
-        "right-header": "Friday 9/7 through Sunday 9/10",
+        "right-header": "Tuesday 10/2 through Sunday 10/14",
         "sections": {
           "1": {
             "header": "Application Review",
@@ -211,7 +211,7 @@
       },
       "decision": {
         "header": "Decision",
-        "right-header": "by 11:59 PM on Tuesday 9/11",
+        "right-header": "by 11:59 PM on Monday 10/15",
         "sections": {
           "1": {
             "header": "Notification",
