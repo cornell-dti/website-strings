@@ -32,9 +32,14 @@
         "image": "/pages/sponsor/hero/hero.png"
       },
       "sponsors": {
+        "check": "/pages/sponsor/sponsors/Checkmark.png",
         "invision": "/pages/sponsor/sponsors/invision.png",
         "google": "/pages/sponsor/sponsors/google.png",
         "cornell-engineering-alumni": "/pages/sponsor/sponsors/cornellengineeringalumni.png"
+      },
+      "events": {
+        "infoSesh": "/pages/sponsor/events/infoSesion.png",
+        "googleLunch": "/pages/sponsor/events/googleLunch.jpg"
       }
     },
     "initiatives": {

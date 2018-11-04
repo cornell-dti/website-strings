@@ -5,11 +5,15 @@
   },
   "pitch": {
     "1": {
-      "header": "Why Sponsor Us?",
+      "header": "Build Relationships",
       "description": "We want sponsors to be as invested in partnering with us as we are with them. In addition to helping make community initiatives possible, we will help organizations create diverse talent pipeline, present information sessions, conduct workshops, and help establish a presence on our campus."
     },
     "2": {
-      "header": "Funding",
+      "header": "Impact",
+      "description": "All of the funds we receive through sponsorships is directly invested back into the team. Through user research, software licenses, community outreach, and marketing, sponsorships help us grow our vision of helping out the community through technology."
+    },
+    "3": {
+      "header": "Get Involved",
       "description": "All of the funds we receive through sponsorships is directly invested back into the team. Through user research, software licenses, community outreach, and marketing, sponsorships help us grow our vision of helping out the community through technology."
     }
   },
@@ -21,5 +25,82 @@
   },
   "current-sponsors": {
     "header": "Current Sponsors"
+  },
+  "sponsor-tiers": {
+    "header": "Sponsorship Tiers",
+    "sponsorship": {
+      "0": {
+        "benefit": "Recognition on DTI Website",
+        "tiers": {
+          "bronze": true,
+          "silver": true,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "1": {
+        "benefit": "Campus-Wide Marketing & Publicity",
+        "tiers": {
+          "bronze": true,
+          "silver": true,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "2": {
+        "benefit": "Resume Book Access",
+        "tiers": {
+          "bronze": false,
+          "silver": true,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "3": {
+        "benefit": "Flagship Initiative Co-Sponsor",
+        "tiers": {
+          "bronze": false,
+          "silver": true,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "4": {
+        "benefit": "Host One Standard Initiative",
+        "tiers": {
+          "bronze": false,
+          "silver": false,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "5": {
+        "benefit": "Host Multiple Initiatives",
+        "tiers": {
+          "bronze": false,
+          "silver": false,
+          "gold": true,
+          "platinum": true
+        }
+      },
+      "6": {
+        "benefit": "Tabling Slot in Engineering Hall",
+        "tiers": {
+          "bronze": false,
+          "silver": false,
+          "gold": false,
+          "platinum": true
+        }
+      },
+      "7": {
+        "benefit": "Recognition on DTI Website",
+        "tiers": {
+          "bronze": false,
+          "silver": false,
+          "gold": false,
+          "platinum": true
+        }
+      }
+    }
   }
 }
