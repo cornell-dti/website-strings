@@ -1,1 +1,17 @@
-{"firstName":"Matthew","lastName":"Coufal","graduation":"05/2020","major":"Computer Science","minor":"Business","hometown":"Rancho Santa Fe, CA","github":"","linkedin":"https://www.linkedin.com/in/matthew-coufal-1a08b0123/","medium":"","website":"","portfolio":"","about":"I'm a San Diego native, big tennis fan, ping pong fanatic, and piano soloist. Although it might not seem like it, I'm also 25% Puerto Rican. By the way, I love to make apps.","teams":"Rescuer & Shout, 1 year","What is your role on the team?":"Developer","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Matthew",
+  "lastName": "Coufal",
+  "graduation": "05/2020",
+  "major": "Computer Science",
+  "minor": "Business",
+  "hometown": "Rancho Santa Fe, CA",
+  "github": "",
+  "linkedin": "https://www.linkedin.com/in/matthew-coufal-1a08b0123/",
+  "medium": "",
+  "website": "",
+  "portfolio": "",
+  "about": "I'm a San Diego native, big tennis fan, ping pong fanatic, and piano soloist. Although it might not seem like it, I'm also 25% Puerto Rican. By the way, I love to make apps.",
+  "teams": "Rescuer & Shout, 1 year",
+  "What is your role on the team?": "Developer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

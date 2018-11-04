@@ -1,1 +1,17 @@
-{"firstName":"Justin","lastName":"Tran","graduation":"05/2019","major":"Computer Science","minor":"n/a","hometown":"Hillsborough, NJ","github":"https://github.com/justinttran","linkedin":"https://www.linkedin.com/in/justinttran/","medium":"","website":"http://justinttran.me/","portfolio":"","about":"I've been a member of Project Samwise since Fall 2016, when none of us knew what the project would end up becoming (and we still might not).  In my free time I like to try and maintain my deteriorating piano and tennis skills.","teams":"Project Samwise","What is your role on the team?":"Developer","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Justin",
+  "lastName": "Tran",
+  "graduation": "05/2019",
+  "major": "Computer Science",
+  "minor": "n/a",
+  "hometown": "Hillsborough, NJ",
+  "github": "https://github.com/justinttran",
+  "linkedin": "https://www.linkedin.com/in/justinttran/",
+  "medium": "",
+  "website": "http://justinttran.me/",
+  "portfolio": "",
+  "about": "I've been a member of Project Samwise since Fall 2016, when none of us knew what the project would end up becoming (and we still might not).  In my free time I like to try and maintain my deteriorating piano and tennis skills.",
+  "teams": "Project Samwise",
+  "What is your role on the team?": "Developer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

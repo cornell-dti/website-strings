@@ -1,1 +1,17 @@
-{"firstName":"Amanda","lastName":"Ong","graduation":"05/2019","major":"Information Science, Systems, and Technology","minor":"Business","hometown":"Wellesley, MA","github":"","linkedin":"https://www.linkedin.com/in/amandaong1/","medium":"","website":"","portfolio":"","about":"I enjoy working on products with a real-world application, which why I really like DTI! Outside of classes, I’m also the tech lead for the Engineering Career Fair Team. I enjoy being active when I can. When I’m home, I like to bike around the neighborhood and I’m hoping to learn how to snowboard or ice-skate this year. I also enjoy a variety of music, but my favorites are Troye Sivan, Noah Kahan, and Shawn Mendes.","teams":"Oweek-events (Since Fall 2017)","What is your role on the team?":"Product Manager","Is there any information on this section of the form that you would prefer not be on the website under your name?":"No"}
+{
+  "firstName": "Amanda",
+  "lastName": "Ong",
+  "graduation": "05/2019",
+  "major": "Information Science, Systems, and Technology",
+  "minor": "Business",
+  "hometown": "Wellesley, MA",
+  "github": "",
+  "linkedin": "https://www.linkedin.com/in/amandaong1/",
+  "medium": "",
+  "website": "",
+  "portfolio": "",
+  "about": "I enjoy working on products with a real-world application, which why I really like DTI! Outside of classes, I’m also the tech lead for the Engineering Career Fair Team. I enjoy being active when I can. When I’m home, I like to bike around the neighborhood and I’m hoping to learn how to snowboard or ice-skate this year. I also enjoy a variety of music, but my favorites are Troye Sivan, Noah Kahan, and Shawn Mendes.",
+  "teams": "Oweek-events (Since Fall 2017)",
+  "What is your role on the team?": "Product Manager",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": "No"
+}

@@ -1,1 +1,17 @@
-{"firstName":"Shefali","lastName":"Agarwal","graduation":"05/2019","major":"Computer Science in Engineering","minor":"Business","hometown":"Singapore","github":"https://github.com/Shefali-A/","linkedin":"https://www.linkedin.com/in/shefaliagarwal/","medium":"","website":"","portfolio":"","about":"I am a member of Big Red Raas, Alpha Phi Omega, SWE, WICC, ACSU, UWC Club, Society for India and DTI of course! I enjoy dancing, singing, sketching and music. I also love to hang out with people and have a good chill time!","teams":"Queue Me In (Role: Developer, Time: 1 year since Junior year)","What is your role on the team?":"Developer","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Shefali",
+  "lastName": "Agarwal",
+  "graduation": "05/2019",
+  "major": "Computer Science in Engineering",
+  "minor": "Business",
+  "hometown": "Singapore",
+  "github": "https://github.com/Shefali-A/",
+  "linkedin": "https://www.linkedin.com/in/shefaliagarwal/",
+  "medium": "",
+  "website": "",
+  "portfolio": "",
+  "about": "I am a member of Big Red Raas, Alpha Phi Omega, SWE, WICC, ACSU, UWC Club, Society for India and DTI of course! I enjoy dancing, singing, sketching and music. I also love to hang out with people and have a good chill time!",
+  "teams": "Queue Me In (Role: Developer, Time: 1 year since Junior year)",
+  "What is your role on the team?": "Developer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

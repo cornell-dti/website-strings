@@ -1,1 +1,17 @@
-{"firstName":"Alexa","lastName":"Bren","graduation":"05/2019","major":"Information Science, Systems, and Technology","minor":"N/A","hometown":"New York City","github":"","linkedin":"https://www.linkedin.com/in/alexa-bren-117520b8/","medium":"","website":"","portfolio":"http://alexabren.com","about":"I'm a UX designer with a CS background, and I love getting to work at the intersection of art, technology, and people. I also enjoy listening to music, dancing, rock climbing, photography, and bread.","teams":"Samwise, designer, this is my second semester","What is your role on the team?":"Designer","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Alexa",
+  "lastName": "Bren",
+  "graduation": "05/2019",
+  "major": "Information Science, Systems, and Technology",
+  "minor": "N/A",
+  "hometown": "New York City",
+  "github": "",
+  "linkedin": "https://www.linkedin.com/in/alexa-bren-117520b8/",
+  "medium": "",
+  "website": "",
+  "portfolio": "http://alexabren.com",
+  "about": "I'm a UX designer with a CS background, and I love getting to work at the intersection of art, technology, and people. I also enjoy listening to music, dancing, rock climbing, photography, and bread.",
+  "teams": "Samwise, designer, this is my second semester",
+  "What is your role on the team?": "Designer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

@@ -1,1 +1,17 @@
-{"firstName":"Shea","lastName":"Belsky","graduation":"12/2018","major":"Information Science","minor":"Education","hometown":"Mahopac, NY, USA","github":"https://github.com/sheabelsky","linkedin":"https://linkedin.com/in/sheabelsky","medium":"","website":"https://sheabels.ky,","portfolio":"","about":"I'm a developer who cares about design, striving to develop software that works with people, not against them. I've been with DTI since it was a Student Assembly Committee, and have been amazed with its growth, and the people who have made it grow. Outside DTI, I love to run, ski, and take photos.","teams":"Queue Me In, Course Reviews, Samwise, Website","What is your role on the team?":"Lead Instructor of 'Trends in Web Development' Class, Former Developer Lead,","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Shea",
+  "lastName": "Belsky",
+  "graduation": "12/2018",
+  "major": "Information Science",
+  "minor": "Education",
+  "hometown": "Mahopac, NY, USA",
+  "github": "https://github.com/sheabelsky",
+  "linkedin": "https://linkedin.com/in/sheabelsky",
+  "medium": "",
+  "website": "https://sheabels.ky,",
+  "portfolio": "",
+  "about": "I'm a developer who cares about design, striving to develop software that works with people, not against them. I've been with DTI since it was a Student Assembly Committee, and have been amazed with its growth, and the people who have made it grow. Outside DTI, I love to run, ski, and take photos.",
+  "teams": "Queue Me In, Course Reviews, Samwise, Website",
+  "What is your role on the team?": "Lead Instructor of 'Trends in Web Development' Class, Former Developer Lead,",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

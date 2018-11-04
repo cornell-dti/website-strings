@@ -1,1 +1,17 @@
-{"firstName":"Matt","lastName":"Barker","graduation":"05/2019","major":"Computer Science","minor":"Information Science, Creative Writing","hometown":"Warwick, NY","github":"","linkedin":"","medium":"","website":"mattbarker.me","portfolio":"","about":"I have most of my fun outside of classes (who doesn't), from developing and designing apps to doing creative writing and playing music. I'm also a member of Cornell App Development, Cornell Lunatic Humor Magazine, and the Big Red Bands. I like Daft Punk, ping pong, and lists of three. And I very much enjoy Slacking in DTI.","teams":"Rescuer (RIP), Developer, Fall 2016 - Spring 2017 // Course Reviews, Designer, Spring 2017 // Samwise, Designer, Summer 2017 // O-Week, Designer, Fall 2017 // Website, Designer, Spring 2017","What is your role on the team?":"Co-Team Lead","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Matt",
+  "lastName": "Barker",
+  "graduation": "05/2019",
+  "major": "Computer Science",
+  "minor": "Information Science, Creative Writing",
+  "hometown": "Warwick, NY",
+  "github": "",
+  "linkedin": "",
+  "medium": "",
+  "website": "mattbarker.me",
+  "portfolio": "",
+  "about": "I have most of my fun outside of classes (who doesn't), from developing and designing apps to doing creative writing and playing music. I'm also a member of Cornell App Development, Cornell Lunatic Humor Magazine, and the Big Red Bands. I like Daft Punk, ping pong, and lists of three. And I very much enjoy Slacking in DTI.",
+  "teams": "Rescuer (RIP), Developer, Fall 2016 - Spring 2017 // Course Reviews, Designer, Spring 2017 // Samwise, Designer, Summer 2017 // O-Week, Designer, Fall 2017 // Website, Designer, Spring 2017",
+  "What is your role on the team?": "Co-Team Lead",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

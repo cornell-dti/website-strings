@@ -1,1 +1,17 @@
-{"firstName":"Ayesha","lastName":"Gagguturi","graduation":"05/2021","major":"Computer Science","minor":"Business","hometown":"Fairfax, VA","github":"https://github.com/Ayesha34","linkedin":"https://www.linkedin.com/in/ayesha-gagguturi/","medium":"","website":"","portfolio":"","about":"When I'm not doing an assignment for a class you can usually catch me updating my bullet journal or working on my calligraphy. Or you can find me at other clubs which are ACSU, SWE, SAC, figure skating and my favorite CDTI doing something to help the cornell community!","teams":"Research Connect : 1 year","What is your role on the team?":"Developer","Is there any information on this section of the form that you would prefer not be on the website under your name?":""}
+{
+  "firstName": "Ayesha",
+  "lastName": "Gagguturi",
+  "graduation": "05/2021",
+  "major": "Computer Science",
+  "minor": "Business",
+  "hometown": "Fairfax, VA",
+  "github": "https://github.com/Ayesha34",
+  "linkedin": "https://www.linkedin.com/in/ayesha-gagguturi/",
+  "medium": "",
+  "website": "",
+  "portfolio": "",
+  "about": "When I'm not doing an assignment for a class you can usually catch me updating my bullet journal or working on my calligraphy. Or you can find me at other clubs which are ACSU, SWE, SAC, figure skating and my favorite CDTI doing something to help the cornell community!",
+  "teams": "Research Connect : 1 year",
+  "What is your role on the team?": "Developer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": ""
+}

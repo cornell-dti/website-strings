@@ -1,1 +1,17 @@
-{"firstName":"Kathy","lastName":"Wang","graduation":"05/2019","major":"Information Science","minor":"N/A","hometown":"Ellicott City","github":"","linkedin":"https://www.linkedin.com/in/kw2018/","medium":"https://medium.com/@kathywang_72179","website":"http://kathywang.me","portfolio":"","about":"I love the smell of rain and the texture of al dente pasta. I also have a Golden Retriever, and I enjoy cooing to him on FaceTime as he ignores my existence. I was also a competitive swimmer once upon a time. Oh, and I'm also really into video-editing / film-making, slam poetry and improv comedy.","teams":"I don't know what team I'm on yet","What is your role on the team?":"Designer","Is there any information on this section of the form that you would prefer not be on the website under your name?":"Kathy Wang"}
+{
+  "firstName": "Kathy",
+  "lastName": "Wang",
+  "graduation": "05/2019",
+  "major": "Information Science",
+  "minor": "N/A",
+  "hometown": "Ellicott City",
+  "github": "",
+  "linkedin": "https://www.linkedin.com/in/kw2018/",
+  "medium": "https://medium.com/@kathywang_72179",
+  "website": "http://kathywang.me",
+  "portfolio": "",
+  "about": "I love the smell of rain and the texture of al dente pasta. I also have a Golden Retriever, and I enjoy cooing to him on FaceTime as he ignores my existence. I was also a competitive swimmer once upon a time. Oh, and I'm also really into video-editing / film-making, slam poetry and improv comedy.",
+  "teams": "I don't know what team I'm on yet",
+  "What is your role on the team?": "Designer",
+  "Is there any information on this section of the form that you would prefer not be on the website under your name?": "Kathy Wang"
+}
