@@ -1,0 +1,11 @@
+{
+  "image": "mx1.jpg",
+  "name": "Michael Xing",
+  "about": "Michael is a full stack developer who enjoys building things for people to use. He primarily works in Java and web technologies, but dabbles with anything and everything that looks remotely interesting. When not coding, he also participates on the Cornell Speech and Debate Society, where he enjoys holding respectful academic discourse and definitely not yelling at other people.",
+  "id": "mx1",
+  "role": "Developer",
+  "roleId": "developer",
+  "github": "https://github.com/mt-xing/",
+  "linkedin": "https://linkedin.com/in/mt-xing/",
+  "website": "http://michaelxing.tk/"
+}
