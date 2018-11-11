@@ -1,5 +1,5 @@
 {
-  "adammasters": {
+  "AM1": {
     "firstName": "Adam",
     "lastName": "Masters",
     "graduation": "05/2020",
@@ -16,7 +16,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "alexabren": {
+  "AB1": {
     "firstName": "Alexa",
     "lastName": "Bren",
     "graduation": "05/2019",
@@ -36,7 +36,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "alicezhou": {
+  "AZ1": {
     "firstName": "Alice",
     "lastName": "Zhou",
     "graduation": "05/2019",
@@ -56,7 +56,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "amandaong": {
+  "AO1": {
     "firstName": "Amanda",
     "lastName": "Ong",
     "graduation": "05/2019",
@@ -76,7 +76,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "aprilye": {
+  "AY1": {
     "firstName": "April",
     "lastName": "Ye",
     "graduation": "05/2021",
@@ -101,7 +101,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "arnavghosh": {
+  "AG2": {
     "firstName": "Arnav",
     "lastName": "Ghosh",
     "graduation": "05/2019",
@@ -117,11 +117,10 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "ashritaraman": {
+  "AR1": {
     "name": "Ashrita Raman",
     "about": "Ashrita is a sophomore majoring in computer science and planning to minor in music and linguistics. At Cornell, Ashrita is part of the Cornell Symphony Orchestra and is a general outreach volunteer for WICC. When not in class, you can find Ashrita playing the piano or violin, reading Harry Potter, or taking pictures of good food.",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "github": "https://github.com/ashritaraman/",
     "linkedin": "https://www.linkedin.com/in/ashritaraman/",
@@ -135,11 +134,9 @@
     "website": "",
     "portfolio": "",
     "about-1": "Ashrita is a sophomore majoring in computer science and minoring in music. At Cornell, Ashrita is part of the Cornell Symphony Orchestra and is a general outreach volunteer for WICC. When not in class, you can find Ashrita playing the piano or violin, reading Harry Potter, or taking pictures of good food.",
-    "teams": ["events", "orientation"],
-    "role": "Developer",
-    "roleId": "developer"
+    "teams": ["events", "orientation"]
   },
-  "ayeshagagguturi": {
+  "AG1": {
     "firstName": "Ayesha",
     "lastName": "Gagguturi",
     "graduation": "05/2021",
@@ -159,11 +156,10 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "bobbyvillaluz": {
+  "BV1": {
     "name": "Bobby Villaluz",
     "about": "Bobby is a sophomore studying computer science in the College of Arts and Sciences. He is passionate about cybersecurity and developing software for positive community impact. When Bobby isn't grinding in the stacks, he loves to surf, read and play ping pong. A former 8-ball champ, he decided to leave the solids and stripes behind to become the world's best coder.",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "github": "https://github.com/BobbyVillaluz",
     "linkedin": "https://www.linkedin.com/in/robert-villaluz-3321aa122/",
@@ -179,14 +175,11 @@
     "teams": [{
       "id": "queuemein",
       "semesters": ["fa18", "current"]
-    }],
-    "role": "Developer",
-    "roleId": "developer"
+    }]
   },
-  "boonpalipatana": {
+  "BP1": {
     "name": "Boon Palipatana",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "firstName": "Boon",
     "lastName": "Palipatana",
@@ -203,20 +196,17 @@
     "teams": [{
       "id": "events",
       "semesters": ["fa18", "current"]
-    }],
-    "role": "Developer",
-    "roleId": "developer"
+    }]
   },
-  "bryangraeser": {
+  "BG1": {
     "name": "Bryan Graeser",
     "about": "Bryan is pursuing a Bachelor of Arts in Computer Science from Cornell University. He is passionate about cs work for positive social impact, both within the Cornell community and beyond. He has varied work experience from full-stack development to data visualization and analysis. In his free time, Bryan enjoys creative writing, going to the gym, and playing with his pets.",
     "role": "Developer",
     "roleId": "developer",
-    "roleId": "developer",
     "github": "https://github.com/BryanGraeser/",
     "linkedin": "https://www.linkedin.com/in/bryangraeser"
   },
-  "cedriccastillo": {
+  "CC1": {
     "firstName": "Cedric",
     "lastName": "Castillo",
     "graduation": "05/2020",
@@ -236,7 +226,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "davidchu": {
+  "DC1": {
     "firstName": "David",
     "lastName": "Chu",
     "graduation": "05/2020",
@@ -253,33 +243,15 @@
     "roleId": ["pm", "developer-lead"],
     "teams": [{
       "id": "orientation",
-      "semesters": [{
-        "semester": "sp17",
-        "role": "developer"
-      }, {
-        "semester": "fa17",
-        "role": "developer"
-      }, "fa18", "current"],
-      "id": "orientation",
-      "semesters": [{
-        "semester": "sp18",
-        "role": "pm"
-      }, {
-        "semester": "fa18",
-        "role": "pm"
-      }]
+      "semesters": [
+        "sp17", "fa17", "fa18", "current"
+      ]
     }, {
       "id": "events",
-      "semesters": [{
-        "semester": "sp18",
-        "role": "pm"
-      }, {
-        "semester": "fa18",
-        "role": "pm"
-      }]
+      "semesters": ["sp18", "fa18", "current"]
     }]
   },
-  "emilychan": {
+  "EC2": {
     "firstName": "Emily",
     "lastName": "Chan",
     "graduation": "05/2021",
@@ -299,12 +271,11 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "erinchen": {
+  "EC1": {
     "firstName": "Erin",
     "lastName": "Chen",
     "graduation": "05/2020",
     "major": "Information Science",
-
     "hometown": "Shrewsbury",
     "github": "",
     "linkedin": "",
@@ -319,27 +290,12 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "gautammekkat": {
+  "GM1": {
     "firstName": "Gautam",
     "lastName": "Mekkat",
-    "graduation": "05/2020",
-    "major": "ECE",
-    "minor": "CS",
-    "hometown": "Poughkeepsie, NY",
-    "github": "https://github.com/Blue9",
-    "linkedin": "",
-    "medium": "",
-    "website": "",
-    "portfolio": "",
-    "about": "Hi am 39 year old ligandese man apoligize for poor england. I am selled my hose for internet connection for become DTI developer and I want to become best developer like eli mask and i am plan too. thank for reading",
-    "teams": [{
-      "id": "samwise",
-      "semesters": ["fa17", "sp18", "fa18"]
-    }],
-    "role": "Developer",
-    "roleId": "developer"
+    "disabled": true
   },
-  "glenikodra": {
+  "GK1": {
     "firstName": "Gleni",
     "lastName": "Kodra",
     "graduation": "05/2019",
@@ -352,7 +308,6 @@
     "website": "",
     "portfolio": "",
     "about": "I was born in Albania, but nowadays I enjoy watching Cleveland sports teams find a way to mess things up. I serve as the President of Northeast Ohio at Cornell University. Current semi-pro grocery shopper, mid 2000's music fan and pro wrestling trivia enthusiast. We should grab gyros sometime.",
-    "teams": "Corporate Relations Director- Business (05/2017- 05/2018), Business Lead (June 2018- Current)",
     "teams": [{
         "id": "business",
         "role": "Corporate Relations Director",
@@ -368,7 +323,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "imanimajied": {
+  "IM1": {
     "firstName": "Imani",
     "lastName": "Majied",
     "graduation": "05/2019",
@@ -385,7 +340,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "jaggerbrulato": {
+  "JB1": {
     "firstName": "Jagger",
     "lastName": "Brulato",
     "graduation": "05/2021",
@@ -402,7 +357,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "jessemansoor": {
+  "JM1": {
     "firstName": "Jesse",
     "lastName": "Mansoor",
     "graduation": "05/2019",
@@ -424,7 +379,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "jessicachen": {
+  "JC1": {
     "firstName": "Jessica",
     "lastName": "Chen",
     "graduation": "05/2021",
@@ -446,16 +401,15 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "jessicahong": {
+  "JH1": {
     "name": "Jessica Hong",
     "about": "Jessica Hong is a junior studying computer science. She is currently researching fairness in ranking algorithms and is passionate about using CS for social impact.",
     "role": "Developer",
     "roleId": "developer",
-    "roleId": "developer",
     "github": "https://github.com/jessicahong9/",
     "linkedin": "https://www.linkedin.com/in/jessicahong9/"
   },
-  "jessicaprague": {
+  "JP1": {
     "firstName": "Jessica",
     "lastName": "Prague",
     "graduation": "05/2020",
@@ -486,7 +440,7 @@
     "role": "Designer",
     "roleId": ["pm", "designer-lead"]
   },
-  "jessicazhao": {
+  "JZ1": {
     "firstName": "Jessica",
     "lastName": "Zhao",
     "graduation": "05/2020",
@@ -508,7 +462,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "joaquinamante": {
+  "JA1": {
     "firstName": "Joaquin",
     "lastName": "Amante",
     "graduation": "05/2019",
@@ -530,7 +484,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "joyellegilbert": {
+  "JG1": {
     "firstName": "Joyelle",
     "lastName": "Gilbert",
     "graduation": "05/2019",
@@ -552,7 +506,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "julianlondono": {
+  "JL1": {
     "firstName": "Julian",
     "lastName": "Londono",
     "graduation": "05/2021",
@@ -569,7 +523,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "juliayang": {
+  "JY1": {
     "firstName": "Julia",
     "lastName": "Yang",
     "graduation": "12/2018",
@@ -591,7 +545,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "justintran": {
+  "JT1": {
     "firstName": "Justin",
     "lastName": "Tran",
     "graduation": "05/2019",
@@ -613,7 +567,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "kaitlynson": {
+  "KS1": {
     "firstName": "Kaitlyn",
     "lastName": "Son",
     "graduation": "05/2019",
@@ -630,7 +584,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "kathleenxu": {
+  "KX1": {
     "firstName": "Kathleen",
     "lastName": "Xu",
     "graduation": "05/2021",
@@ -647,7 +601,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "kathywang": {
+  "KW1": {
     "firstName": "Kathy",
     "lastName": "Wang",
     "graduation": "05/2019",
@@ -664,7 +618,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "kaushikravikumar": {
+  "KR1": {
     "firstName": "Kaushik",
     "lastName": "Ravikumar",
     "graduation": "05/2021",
@@ -681,7 +635,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "kevinli": {
+  "KL1": {
     "firstName": "Kevin",
     "lastName": "Li",
     "graduation": "12/2018",
@@ -711,17 +665,16 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "laurasizemore": {
+  "LS1": {
     "name": "Laura Sizemore",
     "about": "Laura is a sophomore studying Computer Science in the College of Engineering. She enjoys using technology to develop a positive impact on her community and beyond. She has experience in full - stack development and data analysis through her past internships. When she isn 't coding, she enjoys reading sci-fi novels, playing with my cat, and spending time with friends.",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "github": "https://github.com/lsizemore8/",
     "linkedin": "https://www.linkedin.com/in/laura-sizemore/",
     "teams": []
   },
-  "lisalabarbera": {
+  "LL1": {
     "firstName": "Lisa",
     "lastName": "LaBarbera",
     "graduation": "05/2020",
@@ -750,7 +703,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "mattbarker": {
+  "MB1": {
     "firstName": "Matt",
     "lastName": "Barker",
     "graduation": "05/2019",
@@ -794,7 +747,7 @@
     "role": "Co-Team Lead",
     "roleId": "team-lead"
   },
-  "matthewcoufal": {
+  "MC1": {
     "firstName": "Matthew",
     "lastName": "Coufal",
     "graduation": "05/2020",
@@ -811,7 +764,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "matthewepstein": {
+  "ME1": {
     "firstName": "Matthew",
     "lastName": "Epstein",
     "graduation": "05/2021",
@@ -831,7 +784,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "michaelhuang": {
+  "MH1": {
     "firstName": "Michael",
     "lastName": "Huang",
     "graduation": "05/2020",
@@ -851,17 +804,16 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "michaelxing": {
+  "MX1": {
     "name": "Michael Xing",
     "about": "Michael is a full stack developer who enjoys building things for people to use. He primarily works in Java and web technologies, but dabbles with anything and everything that looks remotely interesting. When not coding, he also participates on the Cornell Speech and Debate Society, where he enjoys holding respectful academic discourse and definitely not yelling at other people.",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "github": "https://github.com/mt-xing/",
     "linkedin": "https://linkedin.com/in/mt-xing/",
     "website": "http://michaelxing.tk/"
   },
-  "michellepark": {
+  "MP1": {
     "firstName": "Michelle",
     "lastName": "Park",
     "graduation": "05/2020",
@@ -878,7 +830,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "neharao": {
+  "NR1": {
     "firstName": "Neha",
     "lastName": "Rao",
     "graduation": "05/2020",
@@ -898,7 +850,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "phillipkheyfets": {
+  "PK1": {
     "firstName": "Phillip",
     "lastName": "Kheyfets",
     "graduation": "05/2020",
@@ -918,7 +870,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "qichenhu": {
+  "QH1": {
     "firstName": "Qichen",
     "lastName": "Hu",
     "graduation": "05/2021",
@@ -943,7 +895,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "rachelnash": {
+  "RN1": {
     "firstName": "Rachel",
     "lastName": "Nash",
     "graduation": "05/2020",
@@ -968,7 +920,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "raymoneradi": {
+  "RR1": {
     "firstName": "Raymone",
     "lastName": "Radi",
     "graduation": "12/2019",
@@ -988,7 +940,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "rebeccafu": {
+  "RF1": {
     "firstName": "Rebecca",
     "lastName": "Fu",
     "graduation": "05/2021",
@@ -1005,7 +957,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "ronnimok": {
+  "RM1": {
     "firstName": "Ronni",
     "lastName": "Mok",
     "graduation": "05/2019",
@@ -1022,7 +974,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "ryanslama": {
+  "RS1": {
     "firstName": "Ryan",
     "lastName": "Slama",
     "graduation": "05/2020",
@@ -1048,11 +1000,10 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "samzhou": {
+  "SZ1": {
     "name": "Sam Zhou",
     "about": "Sam is a full stack web developer with extensive experience in backend development in Kotlin/Java and frontend development with Angular Framework. Sam is interested in designing and developing extensible and scalable software systems as well as programming languages.",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "firstName": "Sam",
     "lastName": "Zhou",
@@ -1068,11 +1019,9 @@
     "teams": [{
       "id": "samwise",
       "semesters": ["fa18", "current"]
-    }],
-    "role": "Developer",
-    "roleId": "developer"
+    }]
   },
-  "sheabelsky": {
+  "SB1": {
     "firstName": "Shea",
     "lastName": "Belsky",
     "graduation": "12/2018",
@@ -1088,7 +1037,7 @@
     "teams": ["queuemein", "reviews", "samwise", "website"],
     "role": "Lead Instructor of 'Trends in Web Development' Class, Former Developer Lead,"
   },
-  "shefaliagarwal": {
+  "SA1": {
     "firstName": "Shefali",
     "lastName": "Agarwal",
     "graduation": "05/2019",
@@ -1105,7 +1054,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "sonyatao": {
+  "ST1": {
     "firstName": "Sonya",
     "lastName": "Tao",
     "graduation": "05/2019",
@@ -1122,7 +1071,7 @@
     "role": "Business Team Member",
     "roleId": "business"
   },
-  "sophiawang": {
+  "SW1": {
     "firstName": "Sophia",
     "lastName": "Wang",
     "graduation": "05/2020",
@@ -1142,11 +1091,10 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "stacywei": {
+  "SW2": {
     "name": "Stacy Wei",
     "about": "Stacy is currently a sophomore studying Computer Science. She was born and raised in a suburb near Chicago, IL. At Cornell, Stacy is involved in the Aguaclara Project Team, Chinese Student Association, and Society of Women Engineers. In her free time, Stacy loves playing tennis, listening to music, and exploring the GORGEous nature in Ithaca",
     "role": "Developer",
-    "roleId": "developer",
     "roleId": "developer",
     "firstName": "Stacy",
     "lastName": "Wei",
@@ -1161,11 +1109,9 @@
     "teams": [{
       "id": "events",
       "semesters": ["fa18", "current"]
-    }],
-    "role": "Developer",
-    "roleId": "developer"
+    }]
   },
-  "tiffanywang": {
+  "TW1": {
     "firstName": "Tiffany",
     "lastName": "Wang",
     "graduation": "05/2019",
@@ -1184,7 +1130,7 @@
     "role": "Product Manager",
     "roleId": "pm"
   },
-  "vanessawang": {
+  "VW1": {
     "firstName": "Vanessa",
     "lastName": "Wang",
     "graduation": "05/2021",
@@ -1204,7 +1150,7 @@
     "role": "Developer",
     "roleId": "developer"
   },
-  "vivianshiu": {
+  "VS1": {
     "firstName": "Vivian",
     "lastName": "Shiu",
     "graduation": "05/2021",
@@ -1223,7 +1169,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "yeonsukkim": {
+  "YK1": {
     "firstName": "Yeonsuk",
     "lastName": "Kim",
     "graduation": "05/2021",
@@ -1243,7 +1189,7 @@
     "role": "Designer",
     "roleId": "designer"
   },
-  "yvonnechan": {
+  "YC1": {
     "name": "Yvonne Chan",
     "firstName": "Yvonne",
     "lastName": "Chan",
