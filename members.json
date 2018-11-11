@@ -3,7 +3,7 @@
     "firstName": "Adam",
     "lastName": "Masters",
     "graduation": "05/2020",
-    "major": "College Scholar, Information Science",
+    "major": ["College Scholar", "Information Science"],
     "minor": "NA",
     "hometown": "Evanston, IL",
     "github": "",
@@ -89,7 +89,15 @@
     "website": "",
     "portfolio": "https://www.cottontil.com/",
     "about": "I love exploring new coffee shops and insta-perfect alleyways, and my guilty pleasure is currently couch potato-ing and tuning into Asia's Next Top Model. On campus, I'm currently involved with Cornell Consulting Group and run my online shop Cottontil!",
-    "teams": "Designer for: Shout (fa 2017-sp 2018), campus density (fa 2018 - present)",
+    "teams": [{
+        "id": "shout",
+        "semesters": ["fa17", "sp18"]
+      },
+      {
+        "id": "density",
+        "semesters": ["fa18", "current"]
+      }
+    ],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -98,7 +106,6 @@
     "lastName": "Ghosh",
     "graduation": "05/2019",
     "major": "Computer Science",
-    "minor": "NA",
     "hometown": "Mumbai, India",
     "github": "https://github.com/garnav",
     "linkedin": "https://www.linkedin.com/in/arnav-ghosh-9b877a106/",
@@ -106,7 +113,7 @@
     "website": "",
     "portfolio": "",
     "about": "I work on debugging ominous backend problems and designing ways in which we can use data safely and responsibly to benefit everyone on Campus. I like playing cricket and sitting on the slope with a book once in a while!",
-    "teams": "Events and O-Week",
+    "teams": ["events", "orientation"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -128,7 +135,7 @@
     "website": "",
     "portfolio": "",
     "about-1": "Ashrita is a sophomore majoring in computer science and minoring in music. At Cornell, Ashrita is part of the Cornell Symphony Orchestra and is a general outreach volunteer for WICC. When not in class, you can find Ashrita playing the piano or violin, reading Harry Potter, or taking pictures of good food.",
-    "teams": "O-week/Events",
+    "teams": ["events", "orientation"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -145,7 +152,10 @@
     "website": "",
     "portfolio": "",
     "about": "When I'm not doing an assignment for a class you can usually catch me updating my bullet journal or working on my calligraphy. Or you can find me at other clubs which are ACSU, SWE, SAC, figure skating and my favorite CDTI doing something to help the cornell community!",
-    "teams": "Research Connect : 1 year",
+    "teams": [{
+      "id": "researchconnect",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -161,12 +171,15 @@
     "lastName": "Villaluz",
     "graduation": "05/2021",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "Shrewsbury, New Jersey",
     "medium": "",
     "website": "",
     "portfolio": "",
-    "teams": "Queue Me in (just joined)",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": ["fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -187,7 +200,10 @@
     "website": "http://boonpalipatana.com/",
     "portfolio": "",
     "about": "I'm an Information Science Major concentrating in Data Science. I love working with data analytics and I also study web, mobile app, and game development. Outside of class, I spend time watching basketball, running at a reasonable pace, being an RA in the Low Rises, and bonding with the squirrels on campus.",
-    "teams": "OWeek-Events, just started",
+    "teams": [{
+      "id": "events",
+      "semesters": ["fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -213,7 +229,10 @@
     "website": "https://cc736.github.io/",
     "portfolio": "",
     "about": "I first began designing in high school as a lighting designer for my school's theatrical production and am building upon this passion in college where I now study human behavior and designing interactions. Beyond design, I'm the web director for a fashion and lifestyle magazine (Thread), a self-proclaimed Spotify playlist genius, and a wannabe Yelp Elite member.",
-    "teams": "Designer on Events for 1 Year",
+    "teams": [{
+      "id": "events",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -230,9 +249,35 @@
     "website": "",
     "portfolio": "https://davidchuyaya.github.io/portfolio/",
     "about": "I liked Hans Zimmer but am more recently into Beethoven and Schubert; highly recommend giving Appassionata a listen. I enjoy light-tasting Taiwanese foods (bitter melon stew!) and gas stoves. My favorite pickles are Ba Tampte, half sour, only at Wegmans. Like cucumbers, but with garlic.",
-    "teams": "O-week: Front-end developer (1 year), Product Manager (1 year); Events: Product Manager (1 year)",
     "role": "Product Manager",
-    "roleId": "pm"
+    "roleId": ["pm", "developer-lead"],
+    "teams": [{
+      "id": "orientation",
+      "semesters": [{
+        "semester": "sp17",
+        "role": "developer"
+      }, {
+        "semester": "fa17",
+        "role": "developer"
+      }, "fa18", "current"],
+      "id": "orientation",
+      "semesters": [{
+        "semester": "sp18",
+        "role": "pm"
+      }, {
+        "semester": "fa18",
+        "role": "pm"
+      }]
+    }, {
+      "id": "events",
+      "semesters": [{
+        "semester": "sp18",
+        "role": "pm"
+      }, {
+        "semester": "fa18",
+        "role": "pm"
+      }]
+    }]
   },
   "emilychan": {
     "firstName": "Emily",
@@ -247,7 +292,10 @@
     "website": "http://emilychan.me/",
     "portfolio": "",
     "about": "I'm passionate about design because I love learning about people and creating things with social impact. Besides design, I also love being outdoors, rock climbing, running, cooking and eating food, playing the flute, and listening to indie rock.",
-    "teams": "Research Connect since Spring 2018",
+    "teams": [{
+      "id": "researchconnect",
+      "semesters": ["sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -256,7 +304,7 @@
     "lastName": "Chen",
     "graduation": "05/2020",
     "major": "Information Science",
-    "minor": "None",
+
     "hometown": "Shrewsbury",
     "github": "",
     "linkedin": "",
@@ -264,7 +312,10 @@
     "website": "",
     "portfolio": "",
     "about": "I'm a junior studying information science, concentrating in UX and interactive technologies. When I'm not designing for DTI, you can find me giving campus tours and watching Bon Appetit videos.",
-    "teams": "Product Designer for CU Reviews",
+    "teams": [{
+      "id": "reviews",
+      "semesters": ["sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -281,7 +332,10 @@
     "website": "",
     "portfolio": "",
     "about": "Hi am 39 year old ligandese man apoligize for poor england. I am selled my hose for internet connection for become DTI developer and I want to become best developer like eli mask and i am plan too. thank for reading",
-    "teams": "Samwise - Developer since Fall 2017",
+    "teams": [{
+      "id": "samwise",
+      "semesters": ["fa17", "sp18", "fa18"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -299,6 +353,18 @@
     "portfolio": "",
     "about": "I was born in Albania, but nowadays I enjoy watching Cleveland sports teams find a way to mess things up. I serve as the President of Northeast Ohio at Cornell University. Current semi-pro grocery shopper, mid 2000's music fan and pro wrestling trivia enthusiast. We should grab gyros sometime.",
     "teams": "Corporate Relations Director- Business (05/2017- 05/2018), Business Lead (June 2018- Current)",
+    "teams": [{
+        "id": "business",
+        "role": "Corporate Relations Director",
+        "semesters": ["fa17", "sp18"]
+      },
+      {
+        "id": "business",
+        "roleId": "business-lead",
+        "role": "Business Lead",
+        "semesters": ["sm18", "fa18", "current"]
+      }
+    ],
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -315,7 +381,7 @@
     "website": "",
     "portfolio": "everybodyeats.app",
     "about": "When I’m not booking my next travel adventure, I’m probably working on my social enterprise, Everybody Eats. Social entrepreneurship is a passion of mine because of its potential to create positive impact in an innovative and sustainable way. In addition to DTI, I’m also part of Les Femmes de Substance and Social Business Consulting.",
-    "teams": "Business team",
+    "teams": ["business"],
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -332,7 +398,7 @@
     "website": "",
     "portfolio": "",
     "about": "I'm a Computer Science student and developer for Cornell DTI. I'm a musician (piano and guitar), and I produce jazz, r&b, and hip hop music. I get a bit too excited about quantum and music theory, though I am also the type of person that's happy spending hours playing Legend of Zelda.",
-    "teams": "Events / O-Week",
+    "teams": ["events", "orientation"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -349,7 +415,12 @@
     "website": "",
     "portfolio": "",
     "about": "I am studying information science and concentrating in user experience. I am especially interested in how technology can be harnessed to improve efficiency and productivity of teams and individuals. I also study Spanish and spent last semester in Seville, Spain. In addition to my academics I love to play tennis and lacrosse and explore Ithaca.",
-    "teams": "Cornell Reviews for 2 years",
+    "teams": [{
+      "id": "reviews",
+      "semesters": [
+        "fa17", "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -358,7 +429,7 @@
     "lastName": "Chen",
     "graduation": "05/2021",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "Chicago, IL USA",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/jessica-chen-0305b2149/",
@@ -366,7 +437,12 @@
     "website": "",
     "portfolio": "",
     "about": "Aside from CDTI, I am also part of the AOE Engineering Sorority, the Culture Fest Planning Committee, and the club tennis team! I am also a fellow of the Rewriting the Code Fellowship. In my free time, I enjoy hiking, hammocking, adventuring, being an Edthusiast, and chasing sunsets.",
-    "teams": "CU Reviews, Developer, 1 year",
+    "teams": [{
+      "id": "reviews",
+      "semesters": [
+        "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -392,9 +468,23 @@
     "website": "https://www.linkedin.com/in/jessicaprague/",
     "portfolio": "",
     "about": "I truly love to design intuitive experiences that make people happy. I am a designer for Cornell DTI and Cornell App Development, and I also work as a Teaching Assistant. In my free time, I enjoy hanging with friends, binge-watching Netflix, running, and traveling. I am always open to new challenges!",
-    "teams": "Cornell Reviews (Designer Fall 2017 - Present, Co-PM starting this semester)",
+    "teams": [{
+        "id": "reviews",
+        "roleId": "designer",
+        "semesters": [
+          "fa17", "sp18"
+        ]
+      },
+      {
+        "id": "reviews",
+        "roleId": "pm",
+        "semesters": [
+          "fa18", "current"
+        ]
+      }
+    ],
     "role": "Designer",
-    "roleId": "designer"
+    "roleId": ["pm", "designer-lead"]
   },
   "jessicazhao": {
     "firstName": "Jessica",
@@ -409,7 +499,12 @@
     "website": "",
     "portfolio": "",
     "about": "I'm a CS major with a side interest for Psychology. On campus, I'm an Engineering Peer Advisor and a member of Cornell Undergraduate Asia Business Society. This past summer, I worked as a SWE at VMware. In my free time, I enjoy working out, reading conspiracy theories, and exploring Ithaca!",
-    "teams": "Events/O-Week, Developer, Jan 2018 - present",
+    "teams": [{
+      "id": "events",
+      "semesters": [
+        "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -426,7 +521,12 @@
     "website": "",
     "portfolio": "",
     "about": "On campus, I sing with Jazz Voices and publicize stuff for the International Students Union. I also lead design for Ezra Box. Lately, I've been trying to make a short film.",
-    "teams": "Cue, Designer since Fall 2019",
+    "teams": [{
+      "id": "events",
+      "semesters": [
+        "fa18", "current"
+      ]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -443,7 +543,12 @@
     "website": "",
     "portfolio": "",
     "about": "When I'm not doing homework or designing for DTI, I draw, paint, and work on video game development. I'm also sporadically involved in Cornell's Entomology club as well as general bird appreciation. Whether it's designing apps or games, I love working in groups to build exciting projects we couldn't achieve alone.",
-    "teams": "Designer for Queue-Me-In (1 year)",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": [
+        "fa17", "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -477,7 +582,12 @@
     "website": "",
     "portfolio": "",
     "about": "Hi, I'm Julia! You can probably find me hibernating in the conference rooms of Upson. I love watercoloring and handlettering and am trying to get back into it. One of my bucket list items is to visit 100 countries & loved travelling through Europe during my study abroad  (I'm at 20 now)!",
-    "teams": "Research Connect, Developer (FA17)",
+    "teams": [{
+      "id": "reviews",
+      "semesters": [
+        "fa17", "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -494,7 +604,12 @@
     "website": "http://justinttran.me/",
     "portfolio": "",
     "about": "I've been a member of Project Samwise since Fall 2016, when none of us knew what the project would end up becoming (and we still might not).  In my free time I like to try and maintain my deteriorating piano and tennis skills.",
-    "teams": "Project Samwise",
+    "teams": [{
+      "id": "samwise",
+      "semesters": [
+        "fa16", "sp17", "fa17", "sp18", "fa18", "current"
+      ]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -511,7 +626,7 @@
     "website": "http://kaitlynson.com",
     "portfolio": "",
     "about": "NY based designer with a passion for all things creative, learning, and corgis. At any given party find me by the guac.",
-    "teams": "Shout",
+    "teams": ["shout", "density"],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -528,7 +643,7 @@
     "website": "",
     "portfolio": "",
     "about": "I'm happiest when I'm creating, whether that be working on an app, writing a story or knitting a scarf. I'm currently a part of DTI (obviously), Cornell Eastern Music Ensemble, and the Cornell Lunatic. When I'm not trying to power through all my work, you can find me drinking boba tea, watching anime, or obsessing over food (maybe even all three).",
-    "teams": "Business team",
+    "teams": ["business"],
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -545,7 +660,7 @@
     "website": "http://kathywang.me",
     "portfolio": "",
     "about": "I love the smell of rain and the texture of al dente pasta. I also have a Golden Retriever, and I enjoy cooing to him on FaceTime as he ignores my existence. I was also a competitive swimmer once upon a time. Oh, and I'm also really into video-editing / film-making, slam poetry and improv comedy.",
-    "teams": "I don't know what team I'm on yet",
+    "teams": [],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -554,7 +669,7 @@
     "lastName": "Ravikumar",
     "graduation": "05/2021",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "San Jose, California",
     "github": "https://github.com/kaushikravikumar/",
     "linkedin": "https://www.linkedin.com/in/kaushikravikumar/",
@@ -562,7 +677,7 @@
     "website": "",
     "portfolio": "",
     "about": "I'm an avid developer who loves seeing software used to solve problems. I'm also intrigued by the idea of Smart Cities and using the internet of things to improve our current infrastructures. Besides that I love exploring nature, traveling, listening to music and dropping my own fire mixtapes.",
-    "teams": "Android Developer for Rescuer, Shout App (1 year)",
+    "teams": ["rescuer", "shout", "density"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -579,7 +694,20 @@
     "website": "",
     "portfolio": "",
     "about": "I have been a part of CDTI for a long time doing frontend/backend work, but this semester I decided to try something new and dip my toes into design. Outside of classes/work, I like to play guitar, rock climb, freestyle rap, basketball, etc. If you ask me to do something that I haven't done before, there is a decent chance that I will be interested!",
-    "teams": "Project Samwise (Did both frontend and backend work for 2 years)",
+    "teams": [{
+        "id": "reviews",
+        "roleId": "developer",
+        "semesters": [
+          "fa16", "sp17", "fa17", "sp18"
+        ]
+      },
+      {
+        "id": "reviews",
+        "semesters": [
+          "fa18", "current"
+        ]
+      }
+    ],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -590,7 +718,8 @@
     "roleId": "developer",
     "roleId": "developer",
     "github": "https://github.com/lsizemore8/",
-    "linkedin": "https://www.linkedin.com/in/laura-sizemore/"
+    "linkedin": "https://www.linkedin.com/in/laura-sizemore/",
+    "teams": []
   },
   "lisalabarbera": {
     "firstName": "Lisa",
@@ -605,7 +734,19 @@
     "website": "lisalabarbera.me",
     "portfolio": "",
     "about": "Lisa LaBarbera is a junior majoring in Information Science. She is from the small town by NYC. Her interests include photography, traveling and design! On campus, she is a member of APO, WICC, and is a violinist in the Cornell Chamber Orchestra. In her free time she loves to explore, play music, and take pictures.",
-    "teams": "cue/O-Week, since Fall 2017",
+    "teams": [{
+        "id": "orientation",
+        "semesters": [
+          "fa17", "sp18", "fa18", "current"
+        ]
+      },
+      {
+        "id": "events",
+        "semesters": [
+          "sp18", "fa18", "current"
+        ]
+      }
+    ],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -622,8 +763,36 @@
     "website": "mattbarker.me",
     "portfolio": "",
     "about": "I have most of my fun outside of classes (who doesn't), from developing and designing apps to doing creative writing and playing music. I'm also a member of Cornell App Development, Cornell Lunatic Humor Magazine, and the Big Red Bands. I like Daft Punk, ping pong, and lists of three. And I very much enjoy Slacking in DTI.",
-    "teams": "Rescuer (RIP), Developer, Fall 2016 - Spring 2017 // Course Reviews, Designer, Spring 2017 // Samwise, Designer, Summer 2017 // O-Week, Designer, Fall 2017 // Website, Designer, Spring 2017",
-    "role": "Co-Team Lead"
+    "teams": [{
+        "id": "rescuer",
+        "semesters": [
+          "fa16", "sp17"
+        ],
+        "roleId": "developer"
+      },
+      {
+        "id": "reviews",
+        "semesters": "sp17",
+        "roleId": "designer"
+      },
+      {
+        "id": "samwise",
+        "semesters": "sm17",
+        "roleId": "designer"
+      },
+      {
+        "id": "orientation",
+        "semesters": "fa17",
+        "roleId": "designer"
+      },
+      {
+        "id": "website",
+        "semesters": "sp18",
+        "roleId": "designer"
+      }
+    ],
+    "role": "Co-Team Lead",
+    "roleId": "team-lead"
   },
   "matthewcoufal": {
     "firstName": "Matthew",
@@ -638,7 +807,7 @@
     "website": "",
     "portfolio": "",
     "about": "I'm a San Diego native, big tennis fan, ping pong fanatic, and piano soloist. Although it might not seem like it, I'm also 25% Puerto Rican. By the way, I love to make apps.",
-    "teams": "Rescuer & Shout, 1 year",
+    "teams": ["rescuer", "shout", "density"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -655,7 +824,10 @@
     "website": "",
     "portfolio": "",
     "about": "From new technologies for web and mobile development to overloading credit-hours, I am always learning. I am an aggressive YouTube consumer currently infatuated with items created with various resins and wood. I enjoy watching people play video games, am a professional (shower) singer, and am an advocate of the Oxford comma.",
-    "teams": "Project Samwise -- PM, 2 Semesters (Fall 2017- Current)",
+    "teams": [{
+      "id": "samwise",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Product Manager",
     "roleId": "pm"
   },
@@ -672,7 +844,10 @@
     "website": "",
     "portfolio": "",
     "about": "I'm a product designer at the interface (heh) of humans and technology. I like to transform ideas into experiences through deep attention to narrative and craftsmanship. Find me cooking, taking pictures, and petting all the dogs.",
-    "teams": "Research Connect, 1 year",
+    "teams": [{
+      "id": "researchconnect",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -691,7 +866,7 @@
     "lastName": "Park",
     "graduation": "05/2020",
     "major": "Information Science",
-    "minor": "None",
+
     "hometown": "Irvine, CA",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/michelle-park-76697a149/",
@@ -699,7 +874,7 @@
     "website": "https://michelleypark88.wixsite.com/micyubpar",
     "portfolio": "",
     "about": "I love shopping for anything and exploring new places that are unfamiliar to me. In my free time outside of school, I watch movies and love spending time with friends.",
-    "teams": "Samwise",
+    "teams": ["samwise"],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -716,7 +891,10 @@
     "website": "",
     "portfolio": "",
     "about": "Other than being a part of this project team, I'm Musical Director of Cornell's Original Musical Theatre Troupe, Anything Goes. I love to sing, play guitar, and Zumba in my free time.",
-    "teams": "Shout 1 year Business 1+ years",
+    "teams": ["shout", {
+      "id": "business",
+      "roleId": "business"
+    }, "density"],
     "role": "Product Manager",
     "roleId": "pm"
   },
@@ -725,7 +903,7 @@
     "lastName": "Kheyfets",
     "graduation": "05/2020",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "St. Louis, MO",
     "github": "https://github.com/kheyfets",
     "linkedin": "https://www.linkedin.com/in/phillip-kheyfets/",
@@ -733,7 +911,10 @@
     "website": "",
     "portfolio": "",
     "about": "Outside of classes and DTI, I love trying new foods, playing ping pong, and taking naps on the slope (weather permitting). On campus, I am also involved in virtual reality research and serve on the CS 3110 course staff. I am looking forward to building awesome projects with DTI this year and beyond!",
-    "teams": "Developer on Research Connect since spring 2018",
+    "teams": [{
+      "id": "researchconnect",
+      "semesters": ["sp18", "fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -750,7 +931,15 @@
     "website": "http://ethanhu.me",
     "portfolio": "",
     "about": "Talk is cheap. I’ll show ya the code.",
-    "teams": "Oweek and Events - iOS Developer - 1 hear",
+    "teams": [{
+        "id": "orientation",
+        "semesters": ["fa17", "sp18", "fa18", "current"]
+      },
+      {
+        "id": "events",
+        "semesters": ["fa17", "sp18", "fa18", "current"]
+      }
+    ],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -767,7 +956,15 @@
     "website": "https://rsn55.github.io/",
     "portfolio": "",
     "about": "I am a member of Cornell Concert Commission, which selects bands, promotes shows, and produces all other aspects of popular concerts at Cornell. I am also a teaching assistant for Operating Systems (and former TA of Systems Organization and Programming). In my free time, I listen to music, attend concerts, dance, draw, and paint.",
-    "teams": "Research Connect - Frontend Developer, 1 year. Queue Me In - Frontend Developer, just started.",
+    "teams": [{
+        "id": "researchconnect",
+        "semesters": ["fa17", "sp18"]
+      },
+      {
+        "id": "queuemein",
+        "semesters": ["fa18", "current"]
+      }
+    ],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -776,7 +973,7 @@
     "lastName": "Radi",
     "graduation": "12/2019",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "Los Angeles, CA",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/raymoneradi",
@@ -784,7 +981,10 @@
     "website": "",
     "portfolio": "",
     "about": "I am a junior studying Computer Science. I love to find creative solutions to difficult problems, and think CS is the perfect tool to do so!",
-    "teams": "Rescuer, Shout, and Campus Density. I have been a PM and dev.",
+    "teams": ["rescuer", {
+      "id": "shout",
+      "roleId": "pm"
+    }, "density"],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -801,7 +1001,7 @@
     "website": "",
     "portfolio": "",
     "about": "I’m passionate about sustainability, technology, social impact, and oolong milk tea. If I’m not hiding in the Olin Stacks, you can probably find me playing tennis, sabre fencing, dancing, complaining to friends, or watching The Office in my free time.",
-    "teams": "Business",
+    "teams": "business",
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -818,7 +1018,7 @@
     "website": "",
     "portfolio": "",
     "about": "DTI has become a place where I can personally gain exposure to design and development, while also employing my strengths to positively impact my community. Other than DTI, I am also on the executive boards of the Cornell International Business Association and the Cornell International Affairs Review.",
-    "teams": "Business (since SP18)",
+    "teams": "business",
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -835,7 +1035,16 @@
     "website": "http://RyanSlama.com",
     "portfolio": "",
     "about": "Hey! I'm overly passionate about semi-eclectic music, black coffee, tea, politics, board games, oxford commas, and pretty much anything else at the intersection of hipster and basic. This summer I'm returning to Slack's Product Security team in San Francisco.",
-    "teams": "Queue Me In, Dev 1 semester, now PM",
+    "teams": [{
+        "id": "queuemein",
+        "roleId": "developer",
+        "semesters": ["fa17", "sp18"]
+      },
+      {
+        "id": "queuemein",
+        "semesters": ["fa18", "current"]
+      }
+    ],
     "role": "Product Manager",
     "roleId": "pm"
   },
@@ -856,7 +1065,10 @@
     "medium": "",
     "website": "https://developersam.com",
     "portfolio": "",
-    "teams": "Samwise, Developer, Just Joined",
+    "teams": [{
+      "id": "samwise",
+      "semesters": ["fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -873,7 +1085,7 @@
     "website": "https://sheabels.ky,",
     "portfolio": "",
     "about": "I'm a developer who cares about design, striving to develop software that works with people, not against them. I've been with DTI since it was a Student Assembly Committee, and have been amazed with its growth, and the people who have made it grow. Outside DTI, I love to run, ski, and take photos.",
-    "teams": "Queue Me In, Course Reviews, Samwise, Website",
+    "teams": ["queuemein", "reviews", "samwise", "website"],
     "role": "Lead Instructor of 'Trends in Web Development' Class, Former Developer Lead,"
   },
   "shefaliagarwal": {
@@ -889,7 +1101,7 @@
     "website": "",
     "portfolio": "",
     "about": "I am a member of Big Red Raas, Alpha Phi Omega, SWE, WICC, ACSU, UWC Club, Society for India and DTI of course! I enjoy dancing, singing, sketching and music. I also love to hang out with people and have a good chill time!",
-    "teams": "Queue Me In (Role: Developer, Time: 1 year since Junior year)",
+    "teams": "queuemein",
     "role": "Developer",
     "roleId": "developer"
   },
@@ -906,7 +1118,7 @@
     "website": "",
     "portfolio": "",
     "about": "I love chicken and Costco. I've also been searching for the best eggplant dish and think I've found the winner at a Szechuan restaurant in Arizona. Before I retire, I want to travel the world. I will constantly push myself to explore and follow my curiosities, making a positive impact along the way. And I believe that laughter is the best medicine.",
-    "teams": "Business Team (Finance Lead), 1 year",
+    "teams": "business",
     "role": "Business Team Member",
     "roleId": "business"
   },
@@ -923,7 +1135,10 @@
     "website": "",
     "portfolio": "sophiawang.design",
     "about": "Hi, I'm Sophia! I am interested in storytelling through design and creating products for people. Outside of class, I can be found petting a dog or running outside. I am obsessed with my Cockapoo puppy, Thai food, traveling, and fake plants (because who has time for real ones?).",
-    "teams": "Queue Me In, 1 semester",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": ["sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -937,14 +1152,16 @@
     "lastName": "Wei",
     "graduation": "05/2021",
     "major": "Computer Science",
-    "minor": "None",
     "hometown": "Naperville, IL",
     "github": "https://github.com/stacywei",
     "linkedin": "https://www.linkedin.com/in/stacy-wei",
     "medium": "",
     "website": "",
     "portfolio": "",
-    "teams": "Events (newbie)",
+    "teams": [{
+      "id": "events",
+      "semesters": ["fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -952,8 +1169,7 @@
     "firstName": "Tiffany",
     "lastName": "Wang",
     "graduation": "05/2019",
-    "major": "Information Science and Economics",
-    "minor": "None",
+    "major": ["Information Science", "Economics"],
     "hometown": "NYC, NY",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/tiffany-wang-29ab2a127/",
@@ -961,7 +1177,10 @@
     "website": "http://tiffanywang.me",
     "portfolio": "",
     "about": "Nice to meet you! This is my third semester in DTI - outside of this, I'm also involved in SBC and NLP research. In my free time, I like to find new recipes to cook, try new foods, and play Overcooked (a theme is emerging here). I love meeting new people - say hi!",
-    "teams": "Queue Me In, Product Manager, since Fall 2017",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Product Manager",
     "roleId": "pm"
   },
@@ -970,7 +1189,7 @@
     "lastName": "Wang",
     "graduation": "05/2021",
     "major": "Computer Science",
-    "minor": "None",
+
     "hometown": "Richfield, MN",
     "github": "https://github.com/vanessaw1",
     "linkedin": "https://www.linkedin.com/in/vanessa-w-381939102",
@@ -978,7 +1197,10 @@
     "website": "",
     "portfolio": "",
     "about": "Hi! I'm a sophomore studying computer science who is exicited to spend another year with DTI! Whenever I'm not studying or coding, I devote my free time to volunteering around campus, crocheting stuffed animals, and taking naps (like every other student).",
-    "teams": "Queue Me In (Developer): Fall 2017 - Current",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Developer",
     "roleId": "developer"
   },
@@ -986,8 +1208,7 @@
     "firstName": "Vivian",
     "lastName": "Shiu",
     "graduation": "05/2021",
-    "major": "Design and Environmental Analysis",
-    "minor": "none",
+    "major": ["Design", "Environmental Analysis"],
     "hometown": "São Paulo, Brazil",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/vivian-shiu-8261811405/",
@@ -995,7 +1216,10 @@
     "website": "http://www.vivianshiu.com",
     "portfolio": "",
     "about": "Catch me drinking an açai smoothie in Olin or petting dogs around campus. I love to play soccer, piano, and doodle everywhere. I'm passionate about the unknown effects design can have on a person's daily life. I'm also a self proclaimed professional napper :)",
-    "teams": "Team Samwise since Fall 2017 (on my third semester)",
+    "teams": [{
+      "id": "samwise",
+      "semesters": ["fa17", "sp18", "fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -1012,7 +1236,10 @@
     "website": "https://www.yeon-ux.com/",
     "portfolio": "",
     "about": "I am a UX/UI/Product designer with a passion for building products that ease our complicated lives. I also have interests in UX of AR/VR/IoT and Interaction design. After spending two years in the military, I came back to Cornell to learn more and make an impact in the community.",
-    "teams": "Queue me in- Fall 18",
+    "teams": [{
+      "id": "queuemein",
+      "semesters": ["fa18", "current"]
+    }],
     "role": "Designer",
     "roleId": "designer"
   },
@@ -1029,13 +1256,13 @@
     "portfolio": "",
     "role": "Developer",
     "roleId": "developer",
-    "roleId": "developer",
     "github": "https://github.com/ChanYvonne/",
     "linkedin": "www.linkedin.com/in/yvonne-chan-yc",
     "about": "Yvonne is involved in the Assorted Aces Dance Team and the Cornell Daily Sun Multimedia Team. When she's not studying in the libraries, she enjoys nature walking, reading Crazy Rich Asians, and creative writing. She always tries to find time to explore music and catch up on the latest Netflix films.",
     "about-1": "Yvonne is a sophomore Computer Science major intending to minor in Information Science. She is originally from New York City but at Cornell, she's involved in the Assorted Aces Dance Team and the Cornell Daily Sun Multimedia Team. When she's not studying in the libraries, she enjoys nature walking, watching films, and creative writing.",
-    "teams": "Team Website since Fall 2018",
-    "role": "Developer",
-    "roleId": "developer"
+    "teams": [{
+      "id": "website",
+      "semesters": ["fa18", "current"]
+    }]
   }
 }
