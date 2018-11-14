@@ -26,11 +26,12 @@
   "current-sponsors": {
     "header": "Current Sponsors"
   },
-  "sponsor-tiers": {
+  "tiers": {
     "header": "Sponsorship Tiers",
-    "sponsorship": {
+    "sponsor": {
       "0": {
         "benefit": "Recognition on DTI Website",
+        "subheader": "Logo placement on sponsorship materials",
         "tiers": {
           "bronze": true,
           "silver": true,
@@ -40,6 +41,7 @@
       },
       "1": {
         "benefit": "Campus-Wide Marketing & Publicity",
+        "subheader": "Support and usage of company products on campus",
         "tiers": {
           "bronze": true,
           "silver": true,
@@ -49,6 +51,7 @@
       },
       "2": {
         "benefit": "Resume Book Access",
+        "subheader": "Access to our talent pipeline for recruitment",
         "tiers": {
           "bronze": false,
           "silver": true,
@@ -58,6 +61,7 @@
       },
       "3": {
         "benefit": "Flagship Initiative Co-Sponsor",
+        "subheader": "Company specific publicity and swag distribution",
         "tiers": {
           "bronze": false,
           "silver": true,
@@ -67,6 +71,7 @@
       },
       "4": {
         "benefit": "Host One Standard Initiative",
+        "subheader": "One per semester; Includes technical workshops, career chats",
         "tiers": {
           "bronze": false,
           "silver": false,
@@ -76,6 +81,7 @@
       },
       "5": {
         "benefit": "Host Multiple Initiatives",
+        "subheader": "Up to three events per semester with priority scheduling Every additional event costs $250",
         "tiers": {
           "bronze": false,
           "silver": false,
@@ -85,15 +91,7 @@
       },
       "6": {
         "benefit": "Tabling Slot in Engineering Hall",
-        "tiers": {
-          "bronze": false,
-          "silver": false,
-          "gold": false,
-          "platinum": true
-        }
-      },
-      "7": {
-        "benefit": "Recognition on DTI Website",
+        "subheader": "Reserve space in Duffield Hall, a central engineering hub  Ideal for networking, swag distributions, and branding",
         "tiers": {
           "bronze": false,
           "silver": false,
