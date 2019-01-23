@@ -14,18 +14,26 @@
   "info-sessions": {
     "1": {
       "time": "Monday, 1/28 • 6:00 PM",
-      "location": "Klarman Auditorium"
+      "location": "Klarman Auditorium",
+      "link": {
+        "url": "https://www.facebook.com/events/224044511877876",
+        "text": "Facebook event"
+      }
     },
     "2": {
       "time": "Tuesday, 1/29 • 6:00 PM",
-      "location": "Location To Be Determined"
+      "location": "Location To Be Determined",
+      "link": {
+        "url": "https://www.facebook.com/events/224044515211209",
+        "text": "Facebook event"
+      }
     }
   },
   "application-info": {
     "designer": {
       "apply": {
         "header": "Product Design Role",
-        "right-header": "due 11:59 PM on Thursday 1/30",
+        "right-header": "due 11:59 PM on Thursday 1/31",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -37,7 +45,7 @@
           }
         },
         "call-to-action-button-closed": {
-          "content": "Application (not released)"
+          "content": "Application (available 1/24)"
         }
       },
       "next-steps": {
@@ -68,7 +76,7 @@
     "developer": {
       "apply": {
         "header": "Software Development Role",
-        "right-header": "due 11:59 PM on Thursday 1/30",
+        "right-header": "due 11:59 PM on Thursday 1/31",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -80,7 +88,7 @@
           }
         },
         "call-to-action-button-closed": {
-          "content": "Application (not released)"
+          "content": "Application (available 1/24)"
         }
       },
       "next-steps": {
@@ -111,7 +119,7 @@
     "business": {
       "apply": {
         "header": "Business Analyst Role",
-        "right-header": "due 11:59 PM on Thursday 1/30",
+        "right-header": "due 11:59 PM on Thursday 1/31",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -123,7 +131,7 @@
           }
         },
         "call-to-action-button-closed": {
-          "content": "Application (not released)"
+          "content": "Application (available 1/24)"
         }
       },
       "next-steps": {
@@ -154,7 +162,7 @@
     "pm": {
       "apply": {
         "header": "Product Management Role",
-        "right-header": "due 11:59 PM on Thursday 1/30",
+        "right-header": "due 11:59 PM on Thursday 1/31",
         "sections": {
           "1": {
             "header": "What We're Looking For",
@@ -166,7 +174,7 @@
           }
         },
         "call-to-action-button-closed": {
-          "content": "Application (not released)"
+          "content": "Application (available 1/24)"
         }
       },
       "next-steps": {
