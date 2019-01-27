@@ -5,14 +5,14 @@
   },
   "diversity": {
     "header": "Diversity",
-    "description": "More than just being inclusive, our team strives to bring as many backgrounds and perspectives together to solve community problems. These statistics come from recruiting across campus and seeking applicants with the best skills and potential for growth on the team. (Updated Spring 2018.)",
+    "description": "More than just being inclusive, our team strives to bring as many backgrounds and perspectives together to solve community problems. These statistics come from recruiting across campus and seeking applicants with the best skills and potential for growth on the team. Updated Spring 2019.",
     "gender": {
       "header": "Gender Ratio"
     },
     "stats": {
       "underclassmen": {
-        "stat": "55%",
-        "description": "Percentage of underclassmen team members"
+        "stat": "64%",
+        "description": "Percentage of non-engineering team members"
       },
       "majors": {
         "stat": "14",
