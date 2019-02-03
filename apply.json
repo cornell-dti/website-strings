@@ -2,6 +2,11 @@
   "join-information": {
     "applications-open": true
   },
+  "main-menu": {
+    "advertisement": {
+      "open": false
+    }
+  },
   "hero": {
     "header": "Join Us",
     "subheader": "In every applicant, we above all look for people that want to use their talents and skills to make a difference. No matter your experience, we also strive to be as inclusive as possible and give passionate people a chance to grow and learn with us."
@@ -45,6 +50,7 @@
           }
         },
         "call-to-action-button": {
+          "closed": true,
           "content": "Product Design Application",
           "link": "https://goo.gl/forms/TFkzooxKUnV1LURs2"
         }
@@ -89,6 +95,7 @@
           }
         },
         "call-to-action-button": {
+          "closed": true,
           "content": "Software Developer Application",
           "link": "https://goo.gl/forms/y7RMarKJ4ErVE5BN2"
         }
@@ -133,6 +140,7 @@
           }
         },
         "call-to-action-button": {
+          "closed": true,
           "content": "Business Analyst Application",
           "link": "https://goo.gl/forms/SQD2fuZcJClV4d3G3"
         }
@@ -177,6 +185,7 @@
           }
         },
         "call-to-action-button": {
+          "closed": true,
           "content": "Product Management Application",
           "link": "https://goo.gl/forms/rXTtxfFlIv0WtiXo1"
         }
