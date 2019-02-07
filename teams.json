@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CU Orientation & Events",
+    "id": "events"
+  },
+  {
+    "name": "Business",
+    "id": "business"
+  },
+  {
+    "name": "Rescuer & Shout",
+    "id": "shout"
+  },
+  {
+    "name": "CU Reviews",
+    "id": "reviews"
+  },
+  {
+    "name": "Project Samwise",
+    "id": "samwise"
+  },
+  {
+    "name": "Research Connect",
+    "id": "researchconnect"
+  },
+  {
+    "name": "Queue Me In",
+    "id": "queuemein"
+  }
+]
