@@ -19,7 +19,7 @@
           "2" : {
             "title" : "GitHub",
             "link" : "https://github.com/cornell-dti/web-dev-class-sp19",
-            "icon" : "github"
+            "icon" : "../src/assets/social/github.svg"
           }
         }
       ]
