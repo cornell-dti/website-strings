@@ -7,6 +7,7 @@ import InitiativesJSON from './initiatives.json';
 import TeamJSON from './team.json';
 import ProjectsJSON from './projects.json';
 import SponsorJSON from './sponsor.json';
+import CoursesJSON from './courses.json';
 
 import EventsJSON from './projects/events.json';
 import OrientationJSON from './projects/orientation.json';
@@ -26,6 +27,7 @@ const JSONMap = {
   projects: ProjectsJSON,
   initiatives: InitiativesJSON,
   team: TeamJSON,
+  courses: CoursesJSON,
   sponsor: SponsorJSON,
   'projects.events': EventsJSON,
   'projects.orientation': OrientationJSON,

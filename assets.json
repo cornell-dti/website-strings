@@ -52,6 +52,15 @@
         "*": "~.png"
       }
     },
+    "courses": {
+      "hero": {
+        "lazy": "/pages/courses/hero/hero-lazy.jpg",
+        "video": "/pages/courses/hero/hero.m4v",
+        "image": "/pages/courses/hero/hero.png"
+      },
+      "trends": "/pages/courses/promo/trends.jpg",
+      "blueprint": "/pages/courses/promo/blueprint.png"
+    },
     "home": {
       "hero": {
         "lazy": "/pages/home/hero/hero-lazy.jpg",
