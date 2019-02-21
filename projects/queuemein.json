@@ -4,14 +4,16 @@
   "teamId": "queue-me-in",
   "header": "Queue Me In",
   "subheader": "Office Hours. Simplified.",
-  "hero" : {
-    "header" : "What We Do",
-    "subheader" : "Office hours are too crowded and unorganized. Queue Me In removes the frustration from office hours by helping students get support and professors better understand their class."
+  "hero": {
+    "header": "What We Do",
+    "subheader": "Office hours are too crowded and unorganized. Queue Me In removes the frustration from office hours by helping students get support and professors better understand their class."
   },
-  "github" : "https://github.com/cornell-dti/office-hours",
-  "heroStartingColor" : "#7D82FF",
-  "heroEndingColor" : "#FFFFFF",
-  "heroUseDarkText" : false,
+  "github": "https://github.com/cornell-dti/office-hours",
+  "website": "https://queueme.in",
+  "website-title": "QueueMe.in",
+  "heroStartingColor": "#7D82FF",
+  "heroEndingColor": "#FFFFFF",
+  "heroUseDarkText": false,
   "features": {
     "1": {
       "title": "Pick a Session.",
