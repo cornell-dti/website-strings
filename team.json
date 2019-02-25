@@ -11,11 +11,11 @@
     },
     "stats": {
       "underclassmen": {
-        "stat": "64%",
-        "description": "Percentage of non-engineering team members"
+        "stat": "58%",
+        "description": "Percentage of underclassmen team members"
       },
       "majors": {
-        "stat": "14",
+        "stat": "13",
         "description": "Number of different majors"
       },
       "colleges": {
