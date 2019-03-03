@@ -54,7 +54,8 @@
     "subteam": "samwise",
     "otherSubteams": "",
     "roleDescription": "Design Lead",
-    "roleId": "designer"
+    "roleId": "designer",
+    "isLead": true
   },
   {
     "name": "Alice Zhou",
@@ -71,9 +72,12 @@
     "website": "https://alice.fyi",
     "about": "Boba addict. Food fanatic. Traveling nomad. An overall lover of all good experiences, I enjoy everything from lining up for hours for a good slice of Cheeseboard pizza to spontaneously skydiving with randos to fangirling over seamless product experiences. Outside of classes, I'm most likely found working on DTI stuff in eHub.",
     "subteam": "samwise",
-    "otherSubteams": ["website"],
+    "otherSubteams": [
+      "website"
+    ],
     "roleDescription": "Team Lead",
-    "roleId": "team-lead"
+    "roleId": "team-lead",
+    "isLead": true
   },
   {
     "name": "Amanda Ong",
@@ -166,7 +170,9 @@
     "website": "https://www.cottontil.com/",
     "about": "I love exploring new coffee shops and insta-perfect alleyways, and my guilty pleasure is currently couch potato-ing and tuning into Asia's Next Top Model. On campus, I'm currently involved with Cornell Consulting Group and run my online shop Cottontil!",
     "subteam": "density",
-    "otherSubteams": ["shout"],
+    "otherSubteams": [
+      "shout"
+    ],
     "roleDescription": "Designer",
     "roleId": "designer"
   },
@@ -320,7 +326,8 @@
     "subteam": "events",
     "otherSubteams": "",
     "roleDescription": "Design Lead",
-    "roleId": "designer"
+    "roleId": "designer",
+    "isLead": true
   },
   {
     "name": "Connie Lei",
@@ -356,9 +363,12 @@
     "website": "https://davidchuyaya.github.io/portfolio/",
     "about": "I liked Hans Zimmer but am more recently into Beethoven and Schubert; highly recommend giving Appassionata a listen. I enjoy light-tasting Taiwanese foods (bitter melon stew!) and gas stoves. My favorite pickles are Ba Tampte, half sour, only at Wegmans. Like cucumbers, but with garlic.",
     "subteam": "orientation",
-    "otherSubteams": ["events"],
+    "otherSubteams": [
+      "events"
+    ],
     "roleDescription": "Mobile Platforms Lead",
-    "roleId": "developer"
+    "roleId": "developer",
+    "isLead": true
   },
   {
     "name": "Dhruv Baijal",
@@ -425,16 +435,21 @@
     "major": "Computer Science",
     "doubleMajor": "",
     "minor": "",
-    "hometown": "",
+    "hometown": "Grand Forks, ND",
     "github": "https://github.com/rockon999/",
     "linkedin": "https://www.linkedin.com/in/evan-welsh-291577141/",
     "other": "",
-    "website": "http://evanwelsh.com/",
-    "about": "",
+    "website": "https://www.evanwelsh.com/",
+    "about": "I'm a sophomore in the College of Arts and Sciences majoring in Computer Science. In my free time I love exploring all sorts of wild technologies. My adventures in Vue.js in fact led to this very site to use it. I've worked within frontend web, backend, and mobile spheres and enjoy periodically switching things up to get a better sense of new and especially emerging platforms. Outside of DTI I enjoy singing in Cornell Chorale, studying Latin, and experimenting with gluten-free recipes among other things.",
     "subteam": "website",
-    "otherSubteams": ["density,shout"],
+    "otherSubteams": [
+      "website",
+      "density",
+      "shout"
+    ],
     "roleDescription": "Web Platforms Lead",
-    "roleId": "developer"
+    "roleId": "developer",
+    "isLead": true
   },
   {
     "name": "Flora Liu",
@@ -508,7 +523,9 @@
     "website": "",
     "about": "I'm a Computer Science student and developer for Cornell DTI. I'm a musician (piano and guitar), and I produce jazz, r&b, and hip hop music. I get a bit too excited about quantum and music theory, though I am also the type of person that's happy spending hours playing Legend of Zelda.",
     "subteam": "events",
-    "otherSubteams": ["orientation"],
+    "otherSubteams": [
+      "orientation"
+    ],
     "roleDescription": "Developer",
     "roleId": "developer"
   },
@@ -679,7 +696,9 @@
     "website": "http://kaitlynson.com",
     "about": "NY based designer with a passion for all things creative, learning, and corgis. At any given party find me by the guac.",
     "subteam": "density",
-    "otherSubteams": ["shout"],
+    "otherSubteams": [
+      "shout"
+    ],
     "roleDescription": "Designer",
     "roleId": "designer"
   },
@@ -736,7 +755,10 @@
     "website": "",
     "about": "I'm an avid developer who loves seeing software used to solve problems. I'm also intrigued by the idea of Smart Cities and using the internet of things to improve our current infrastructures. Besides that I love exploring nature, traveling, listening to music and dropping my own fire mixtapes.",
     "subteam": "density",
-    "otherSubteams": ["shout","rescuer"],
+    "otherSubteams": [
+      "shout",
+      "rescuer"
+    ],
     "roleDescription": "Developer",
     "roleId": "developer"
   },
@@ -774,7 +796,9 @@
     "website": "lisalabarbera.me",
     "about": "Lisa LaBarbera is a junior majoring in Information Science. She is from the small town by NYC. Her interests include photography, traveling and design! On campus, she is a member of APO, WICC, and is a violinist in the Cornell Chamber Orchestra. In her free time she loves to explore, play music, and take pictures.",
     "subteam": "events",
-    "otherSubteams": ["orientation"],
+    "otherSubteams": [
+      "orientation"
+    ],
     "roleDescription": "Designer",
     "roleId": "designer"
   },
@@ -793,9 +817,15 @@
     "website": "https://mattbarker.me",
     "about": "I have most of my fun outside of classes (who doesn't), from developing and designing apps to doing creative writing and playing music. I'm also a member of Cornell App Development, Cornell Lunatic Humor Magazine, and the Big Red Bands. I like Daft Punk, ping pong, and lists of three. And I very much enjoy Slacking in DTI.",
     "subteam": "rescuer",
-    "otherSubteams": ["reviews","samwise","orientation","website"],
+    "otherSubteams": [
+      "reviews",
+      "samwise",
+      "orientation",
+      "website"
+    ],
     "roleDescription": "Co-Team Lead",
-    "roleId": "team-lead"
+    "roleId": "team-lead",
+    "isLead": true
   },
   {
     "name": "Matthew Coufal",
@@ -812,7 +842,10 @@
     "website": "",
     "about": "I'm a San Diego native, big tennis fan, ping pong fanatic, and piano soloist. Although it might not seem like it, I'm also 25% Puerto Rican. By the way, I love to make apps.",
     "subteam": "density",
-    "otherSubteams": ["rescuer","shout"],
+    "otherSubteams": [
+      "rescuer",
+      "shout"
+    ],
     "roleDescription": "Developer",
     "roleId": "developer"
   },
@@ -926,7 +959,11 @@
     "website": "",
     "about": "I love to stay busy on campus! Other than being a part of this amazing project team, I'm Musical Director of Cornell's Original Musical Theatre Troupe, Anything Goes. In my free time, I enjoy singing, playing guitar, going to Zumba classes, bingeing Netflix, and eating ice cream!",
     "subteam": "flux",
-    "otherSubteams": ["business","flux","shout"],
+    "otherSubteams": [
+      "business",
+      "flux",
+      "shout"
+    ],
     "roleDescription": "Product Manager",
     "roleId": "pm"
   },
@@ -964,7 +1001,10 @@
     "website": "",
     "about": "I am a junior studying Computer Science. I love to find creative solutions to difficult problems, and think CS is the perfect tool to do so!",
     "subteam": "density",
-    "otherSubteams": ["rescuer","shout"],
+    "otherSubteams": [
+      "rescuer",
+      "shout"
+    ],
     "roleDescription": "Developer",
     "roleId": "developer"
   },
@@ -1382,7 +1422,9 @@
     "website": "",
     "about": "Yvonne is involved in the Assorted Aces Dance Team and the Cornell Daily Sun Multimedia Team. When she's not studying in the libraries, she enjoys nature walking, reading Crazy Rich Asians, and creative writing. She always tries to find time to explore music and catch up on the latest Netflix films.",
     "subteam": "reviews",
-    "otherSubteams": ["website"],
+    "otherSubteams": [
+      "website"
+    ],
     "roleDescription": "Developer",
     "roleId": "developer"
   }
