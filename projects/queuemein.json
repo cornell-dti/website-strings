@@ -1,7 +1,7 @@
 {
   "name": "Queue Me In",
-  "id": "queue-me-in",
-  "teamId": "queue-me-in",
+  "id": "queuemein",
+  "teamId": "queuemein",
   "header": "Queue Me In",
   "subheader": "Office Hours. Simplified.",
   "hero" : {
