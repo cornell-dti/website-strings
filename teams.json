@@ -26,5 +26,13 @@
   {
     "name": "Queue Me In",
     "id": "queuemein"
+  },
+  {
+    "name": "Website",
+    "id": "website"
+  },
+  {
+    "name":"Flux",
+    "id":"density"
   }
 ]

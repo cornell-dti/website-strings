@@ -247,7 +247,7 @@
     "other": "",
     "website": "",
     "about": "Hi, I'm Ashrita! I am a sophomore majoring in computer science and minoring in music and linguistics. I'm passionate about using technology to create a positive social impact. At Cornell, I teach piano to undergraduates through the Cornell Piano Society and am also a member of the Cornell Symphony Orchestra. Outside of class, you can find me listening to 19th century Romantic music, reading Harry Potter, going on a run, or taking pictures of good food.",
-    "subteam": "cue",
+    "subteam": "events",
     "otherSubteams": [],
     "roleDescription": "Developer",
     "roleId": "developer"
@@ -304,7 +304,7 @@
     "other": "",
     "website": "",
     "about": "Bryan is pursuing a Bachelor of Arts in Computer Science from Cornell University. He is passionate about cs work for positive social impact, both within the Cornell community and beyond. He has varied work experience from full-stack development to data visualization and analysis. In his free time, Bryan enjoys creative writing, going to the gym, and playing with his pets.",
-    "subteam": "",
+    "subteam": "reviews",
     "otherSubteams": "",
     "roleDescription": "Developer",
     "roleId": "developer"
@@ -362,7 +362,7 @@
     "other": "",
     "website": "https://davidchuyaya.github.io/portfolio/",
     "about": "I liked Hans Zimmer but am more recently into Beethoven and Schubert; highly recommend giving Appassionata a listen. I enjoy light-tasting Taiwanese foods (bitter melon stew!) and gas stoves. My favorite pickles are Ba Tampte, half sour, only at Wegmans. Like cucumbers, but with garlic.",
-    "subteam": "orientation",
+    "subteam": "events",
     "otherSubteams": [
       "events"
     ],
@@ -562,7 +562,7 @@
     "other": "",
     "website": "",
     "about": "I love exploring/developing ways that technology can contribute to community impact. Aside from CDTI, I am also the philanthropy chair for Alpha Omega Epsilon (Cornell's engineering sorority), a member of the club tennis team, an AEW facilitator, and a CS course consultant! In my free time, I enjoy hiking, hammocking, adventuring, being an Edthusiast, and chasing sunsets.",
-    "subteam": "coursereviews",
+    "subteam": "reviews",
     "otherSubteams": [],
     "roleDescription": "Developer",
     "roleId": "developer"
@@ -958,7 +958,7 @@
     "other": "",
     "website": "",
     "about": "I love to stay busy on campus! Other than being a part of this amazing project team, I'm Musical Director of Cornell's Original Musical Theatre Troupe, Anything Goes. In my free time, I enjoy singing, playing guitar, going to Zumba classes, bingeing Netflix, and eating ice cream!",
-    "subteam": "flux",
+    "subteam": "density",
     "otherSubteams": [
       "business",
       "flux",
@@ -981,7 +981,7 @@
     "other": "",
     "website": "http://ethanhu.me",
     "about": "Talk is cheap. I’ll show ya the code.",
-    "subteam": "orientation,events",
+    "subteam": "events",
     "otherSubteams": "",
     "roleDescription": "Developer",
     "roleId": "developer"
@@ -1079,7 +1079,7 @@
     "other": "",
     "website": "",
     "about": "I am a programmer and math enthusiast who loves both the applied and theoretical side of computer science. I enjoy playing and watching basketball games as well as analyzing NBA statistics. I also play Magic The Gathering and similar trading card games. As someone with Peruvian heritage, I enjoy all things Peru especially the food and tourist attractions.",
-    "subteam": "cue",
+    "subteam": "events",
     "otherSubteams": [],
     "roleDescription": "Developer",
     "roleId": "developer"
