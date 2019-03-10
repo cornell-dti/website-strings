@@ -1,6 +1,6 @@
 [
   {
-    "name": "CU Orientation & Events",
+    "name": "CUEvents",
     "id": "events"
   },
   {
@@ -8,7 +8,7 @@
     "id": "business"
   },
   {
-    "name": "Rescuer & Shout",
+    "name": "Shout",
     "id": "shout"
   },
   {
@@ -34,5 +34,12 @@
   {
     "name":"Flux",
     "id":"density"
+  },
+  {"name":"O-Week",
+    "id":"orientation"
+  },
+  {
+    "name": "Rescuer",
+    "id":"rescuer"
   }
 ]
