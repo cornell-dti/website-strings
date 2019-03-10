@@ -75,7 +75,7 @@
     "otherSubteams": [
       "website"
     ],
-    "roleDescription": "Team Lead",
+    "roleDescription": "Co-Team Lead",
     "roleId": "team-lead",
     "isLead": true
   },
@@ -443,7 +443,6 @@
     "about": "I'm a sophomore in the College of Arts and Sciences majoring in Computer Science. In my free time I love exploring all sorts of wild technologies. My adventures in Vue.js in fact led to this very site to use it. I've worked within frontend web, backend, and mobile spheres and enjoy periodically switching things up to get a better sense of new and especially emerging platforms. Outside of DTI I enjoy singing in Cornell Chorale, studying Latin, and experimenting with gluten-free recipes among other things.",
     "subteam": "website",
     "otherSubteams": [
-      "website",
       "density",
       "shout"
     ],
@@ -487,7 +486,8 @@
     "subteam": "business",
     "otherSubteams": [],
     "roleDescription": "Business Analyst",
-    "roleId": "business"
+    "roleId": "business",
+    "isLead": true
   },
   {
     "name": "Ishika Jain",
