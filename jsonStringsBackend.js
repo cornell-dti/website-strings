@@ -135,7 +135,7 @@ export default class JSONStringsBackend extends StringsBackend {
       }
 
       if (context === 'assets') { // TODO should we error out if null?
-        return `/static/${searchKey(key, AssetsJSON)}`;
+        return `/static${searchKey(key, AssetsJSON)}`;
       }
 
       return searchKey(key, json);
