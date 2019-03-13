@@ -1,7 +1,7 @@
 [
   {
     "name": "CUEvents",
-    "id": "events"
+    "id": "cue"
   },
   {
     "name": "Business",
@@ -33,7 +33,7 @@
   },
   {
     "name":"Flux",
-    "id":"density"
+    "id":"flux"
   },
   {"name":"O-Week",
     "id":"orientation"
