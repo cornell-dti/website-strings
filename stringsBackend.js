@@ -1,6 +1,14 @@
 /* eslint-disable class-methods-use-this, no-unused-vars */
 
 export default class StringsBackend {
+  constructor(name) {
+    if (typeof name === 'undefined' || name === null) {
+      throw new Error(
+        'Undefined or null passed for backend to a StringsFrontend instance.'
+      );
+    }
+    this.name = name;
+  }
   /**
    * Retrieves the default context for the backend. This function should be implemented by
    * child classes.

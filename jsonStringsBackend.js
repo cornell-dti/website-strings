@@ -117,24 +117,19 @@ export default class JSONStringsBackend extends StringsBackend {
     return DEFAULT_CONTEXT;
   }
 
-  resolveContext(context) {
-    if (context === this.getDefaultContext()) {
-      return HomeJSON;
-    }
-
-    return JSONMap[context];
+  resolveContext() {
+    const PageJSON = JSONMap[this.name];
+    return PageJSON;
   }
 
-  _getString(key, context) {
-    const json = this.resolveContext(context);
-
-
+  _getString(key) {
+    const json = this.resolveContext();
     if (json) {
       if (key === '' || key === null) {
         return json;
       }
 
-      if (context === 'assets') { // TODO should we error out if null?
+      if (this.name === 'assets') { // TODO should we error out if null?
         return `/static${searchKey(key, AssetsJSON)}`;
       }
 
@@ -144,13 +139,13 @@ export default class JSONStringsBackend extends StringsBackend {
     return null;
   }
 
-  _exists(key, context) {
-    const str = this._getString(key, context);
+  _exists(key) {
+    const str = this._getString(key);
     return typeof str !== 'undefined' && str !== null;
   }
 
-  _getChildrenKeysFor(key, context) {
-    const json = this.resolveContext(context);
+  _getChildrenKeysFor(key) {
+    const json = this.resolveContext();
 
     if (json) {
       return searchKey(key, json);
