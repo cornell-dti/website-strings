@@ -1,7 +1,13 @@
 import StringsBackend from './stringsBackend';
 
 export default class StringsFrontend {
-  constructor(backend) {
+  constructor(context, backend) {
+    if (typeof context === 'undefined' || context === null) {
+      throw new Error(
+        'Undefined or null passed for context to a StringsFrontend instance.'
+      );
+    }
+    this.context = context;
     if (typeof backend === 'undefined' || backend === null) {
       throw new Error(
         'Undefined or null passed for backend to a StringsFrontend instance.'
@@ -21,8 +27,17 @@ export default class StringsFrontend {
    * @param {*} key
    * @param {*} context
    */
-  get(key, context) {
-    return this.backend.getString(key, context);
+  get(key) {
+    return this.backend.getString(key, this.context);
+  }
+
+  initialize() {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        this.backend.resolveContext(this.context);
+        resolve();
+      }, 2000);
+    });
   }
 
   /**
@@ -31,8 +46,8 @@ export default class StringsFrontend {
    * @param {*} key
    * @param {*} context
    */
-  exists(key, context) {
-    return this.backend.exists(key, context);
+  exists(key) {
+    return this.backend.exists(key, this.context);
   }
 
   /**
@@ -41,7 +56,7 @@ export default class StringsFrontend {
    * @param {*} key
    * @param {*} context
    */
-  childrenOf(key, context) {
-    return this.backend.getChildrenKeysFor(key, context);
+  childrenOf(key) {
+    return this.backend.getChildrenKeysFor(key, this.context);
   }
 }
