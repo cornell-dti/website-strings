@@ -3,15 +3,11 @@ import StringsBackend from './stringsBackend';
 export default class StringsFrontend {
   constructor(context, backend) {
     if (typeof context === 'undefined' || context === null) {
-      throw new Error(
-        'Undefined or null passed for context to a StringsFrontend instance.'
-      );
+      throw new Error('Undefined or null passed for context to a StringsFrontend instance.');
     }
     this.context = context;
     if (typeof backend === 'undefined' || backend === null) {
-      throw new Error(
-        'Undefined or null passed for backend to a StringsFrontend instance.'
-      );
+      throw new Error('Undefined or null passed for backend to a StringsFrontend instance.');
     }
 
     if (backend instanceof StringsBackend) {
@@ -32,12 +28,7 @@ export default class StringsFrontend {
   }
 
   initialize() {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        this.backend.resolveContext(this.context);
-        resolve();
-      }, 2000);
-    });
+    return this.backend.resolveContext(this.context);
   }
 
   /**

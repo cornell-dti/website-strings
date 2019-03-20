@@ -1,42 +1,10 @@
+import axios from 'axios';
 import StringsBackend from './stringsBackend';
-
-import HomeJSON from './home.json';
-import AssetsJSON from './assets.json';
-import ApplyJSON from './apply.json';
-import InitiativesJSON from './initiatives.json';
-import TeamJSON from './team.json';
-import ProjectsJSON from './projects.json';
-import SponsorJSON from './sponsor.json';
-import CoursesJSON from './courses.json';
-
-import EventsJSON from './projects/events.json';
-import OrientationJSON from './projects/orientation.json';
-import QueueMeInJSON from './projects/queuemein.json';
-import ResearchConnectJSON from './projects/researchconnect.json';
-import ReviewsJSON from './projects/reviews.json';
-import SamwiseJSON from './projects/samwise.json';
-import ShoutJSON from './projects/shout.json';
 
 const DEFAULT_CONTEXT = 'default';
 
-
-const JSONMap = {
-  home: HomeJSON,
-  assets: AssetsJSON,
-  apply: ApplyJSON,
-  projects: ProjectsJSON,
-  initiatives: InitiativesJSON,
-  team: TeamJSON,
-  courses: CoursesJSON,
-  sponsor: SponsorJSON,
-  'projects.events': EventsJSON,
-  'projects.orientation': OrientationJSON,
-  'projects.queuemein': QueueMeInJSON,
-  'projects.researchconnect': ResearchConnectJSON,
-  'projects.reviews': ReviewsJSON,
-  'projects.samwise': SamwiseJSON,
-  'projects.shout': ShoutJSON
-};
+const base = 'https://dti-nova-cms-api.herokuapp.com/';
+const JSONMap = {};
 
 
 function searchKey(key, json) {
@@ -118,23 +86,33 @@ export default class JSONStringsBackend extends StringsBackend {
   }
 
   resolveContext(context) {
-    if (context === this.getDefaultContext()) {
-      return HomeJSON;
+    const splitArr = context.split('.');
+    if (context === 'assets') {
+      return axios.get(`${base}global/`)
+        .then(response => {
+          JSONMap[context] = response.data;
+        });
+    } else if (splitArr.length > 1 && splitArr[0] === 'projects') {
+      return axios.get(`${base}project/${splitArr[1]}`)
+        .then(response => {
+          JSONMap[context] = response.data;
+        });
     }
-
-    return JSONMap[context];
+    return axios.get(`${base}page/${context}`)
+      .then(response => {
+        JSONMap[context] = response.data;
+      });
   }
 
   _getString(key, context) {
-    const json = this.resolveContext(context);
-
+    const json = JSONMap[context];
 
     if (json) {
       if (key === '' || key === null) {
         return json;
       }
-
-      if (context === 'assets') { // TODO should we error out if null?
+      const AssetsJSON = JSONMap.assets;
+      if (context === 'assets' && AssetsJSON) { // TODO should we error out if null?
         return `/static${searchKey(key, AssetsJSON)}`;
       }
 
